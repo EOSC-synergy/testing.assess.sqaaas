@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-seashell-seahorse.sh
-        container: qc.acc_goopy-denim-mist
+        - /usr/bin/env sh .sqa/script.lanky-scarlet-ocelot.sh
+        container: qc.acc_ugly-goldenrod-shrimp
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-purple-dugong.sh
-        container: qc.doc_seedy-ultramarine-falcon
+        - /usr/bin/env sh .sqa/script.pretty-tangerine-tang.sh
+        container: qc.doc_messy-tomato-spitz
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-magnolia-snail.sh
-        container: qc.doc_slaphappy-olive-jellyfish
+        - /usr/bin/env sh .sqa/script.scanty-smalt-ostrich.sh
+        container: qc.doc_hilly-asparagus-uguisu
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-green-uguisu.sh
-        container: qc.doc_flabby-eggplant-coyote
+        - /usr/bin/env sh .sqa/script.smelly-celadon-bordeaux.sh
+        container: qc.doc_sleepy-auburn-bullfrog
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-fuchsia-mouse.sh
-        container: qc.fair_fuzzy-vermilion-russel
+        - /usr/bin/env sh .sqa/script.goopy-cinnabar-bee.sh
+        container: qc.fair_wiggy-cardinal-mammoth
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-violet-tarantula.sh
-        container: qc.lic_droopy-firebrick-deer
+        - /usr/bin/env sh .sqa/script.craggy-sepia-mammoth.sh
+        container: qc.lic_snippy-scarlet-falcon
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-cerulean-rat.sh
-        container: qc.ver_boozy-periwinkle-mongrel
+        - /usr/bin/env sh .sqa/script.homely-aquamarine-chinook.sh
+        container: qc.ver_wimpy-pear-moose
 timeout: 600
