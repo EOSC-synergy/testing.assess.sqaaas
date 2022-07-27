@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-scarlet-ocelot.sh
-        container: qc.acc_ugly-goldenrod-shrimp
+        - /usr/bin/env sh .sqa/script.snappy-champagne-jellyfish.sh
+        container: qc.acc_crabby-ruby-newfoundland
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-tangerine-tang.sh
-        container: qc.doc_messy-tomato-spitz
+        - /usr/bin/env sh .sqa/script.cheeky-amethyst-akita.sh
+        container: qc.doc_skinny-yellow-eleuth
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-smalt-ostrich.sh
-        container: qc.doc_hilly-asparagus-uguisu
+        - /usr/bin/env sh .sqa/script.foggy-taupe-balinese.sh
+        container: qc.doc_fuzzy-corn-rat
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-celadon-bordeaux.sh
-        container: qc.doc_sleepy-auburn-bullfrog
+        - /usr/bin/env sh .sqa/script.homely-russet-rhinoceros.sh
+        container: qc.doc_sunny-dandelion-cheetah
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-cinnabar-bee.sh
-        container: qc.fair_wiggy-cardinal-mammoth
+        - /usr/bin/env sh .sqa/script.ready-cyan-squid.sh
+        container: qc.fair_pasty-cardinal-greyhound
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-sepia-mammoth.sh
-        container: qc.lic_snippy-scarlet-falcon
+        - /usr/bin/env sh .sqa/script.dorky-corn-dachsbracke.sh
+        container: qc.lic_greasy-aquamarine-avocet
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-aquamarine-chinook.sh
-        container: qc.ver_wimpy-pear-moose
+        - /usr/bin/env sh .sqa/script.frumpy-azure-coyote.sh
+        container: qc.ver_wiggy-scarlet-spaniel
 timeout: 600
