@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-champagne-jellyfish.sh
-        container: qc.acc_crabby-ruby-newfoundland
+        - /usr/bin/env sh .sqa/script.skinny-puce-monkey.sh
+        container: qc.acc_wimpy-plum-rabbit
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-amethyst-akita.sh
-        container: qc.doc_skinny-yellow-eleuth
+        - /usr/bin/env sh .sqa/script.skanky-amber-starfish.sh
+        container: qc.doc_dorky-chestnut-squirrel
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-taupe-balinese.sh
-        container: qc.doc_fuzzy-corn-rat
+        - /usr/bin/env sh .sqa/script.seedy-cerise-bird.sh
+        container: qc.doc_scummy-yellow-tiger
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-russet-rhinoceros.sh
-        container: qc.doc_sunny-dandelion-cheetah
+        - /usr/bin/env sh .sqa/script.crappy-pear-donkey.sh
+        container: qc.doc_stuffy-zucchini-drever
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-cyan-squid.sh
-        container: qc.fair_pasty-cardinal-greyhound
+        - /usr/bin/env sh .sqa/script.skinny-scarlet-bordeaux.sh
+        container: qc.fair_hazy-olive-snail
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-corn-dachsbracke.sh
-        container: qc.lic_greasy-aquamarine-avocet
+        - /usr/bin/env sh .sqa/script.thirsty-gamboge-otter.sh
+        container: qc.lic_baggy-salmon-ferret
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.frumpy-azure-coyote.sh
-        container: qc.ver_wiggy-scarlet-spaniel
+        - /usr/bin/env sh .sqa/script.wheezy-ivory-hummingbird.sh
+        container: qc.ver_baggy-rose-alligator
 timeout: 600
