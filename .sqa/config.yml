@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-chartreuse-wolf.sh
-        container: qc.acc_homey-silver-lion
+        - /usr/bin/env sh .sqa/script.boozy-indigo-manatee.sh
+        container: qc.acc_cozy-emerald-rattlesnake
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-sangria-zebra.sh
-        container: qc.doc_breezy-platinum-bloodhound
+        - /usr/bin/env sh .sqa/script.surly-cobalt-burmese.sh
+        container: qc.doc_cozy-sapphire-goose
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-copper-woodpecker.sh
-        container: qc.doc_pokey-cinnamon-gharial
+        - /usr/bin/env sh .sqa/script.squirrely-coral-newt.sh
+        container: qc.doc_stuffy-vermilion-chamois
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-thistle-bonobo.sh
-        container: qc.doc_jumpy-salmon-fish
+        - /usr/bin/env sh .sqa/script.flabby-malachite-robin.sh
+        container: qc.doc_hazy-firebrick-discus
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.geeky-cobalt-chinook.sh
-        container: qc.fair_tacky-bronze-dhole
+        - /usr/bin/env sh .sqa/script.gummy-maroon-chamois.sh
+        container: qc.fair_gimpy-cerise-zorse
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-ultramarine-stoat.sh
-        container: qc.lic_fuzzy-ochre-vulture
+        - /usr/bin/env sh .sqa/script.surly-vermilion-whale.sh
+        container: qc.lic_nerdy-lavender-moose
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-persimmon-hound.sh
-        container: qc.ver_nippy-turquoise-ladybird
+        - /usr/bin/env sh .sqa/script.fuzzy-cinnamon-forest.sh
+        container: qc.ver_lanky-eggplant-beaver
 timeout: 600
