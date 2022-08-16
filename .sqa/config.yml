@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-orange-eagle.sh
-        container: qc.acc_craggy-blue-kangaroo
+        - /usr/bin/env sh .sqa/script.lousy-fuchsia-axolotl.sh
+        container: qc.acc_pokey-eggplant-raccoon
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-wheat-albatross.sh
-        container: qc.doc_leaky-tan-chipmunk
+        - /usr/bin/env sh .sqa/script.lumpy-asparagus-turtle.sh
+        container: qc.doc_snappy-bistre-cichlid
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-zucchini-capuchin.sh
-        container: qc.doc_cheeky-tan-balinese
+        - /usr/bin/env sh .sqa/script.ready-azure-neanderthal.sh
+        container: qc.doc_shaky-apricot-giraffe
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-burgundy-lizard.sh
-        container: qc.doc_skanky-turquoise-snail
+        - /usr/bin/env sh .sqa/script.lousy-cinnamon-anteater.sh
+        container: qc.doc_ready-lemon-iguana
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.nerdy-champagne-labradoodle.sh
-        container: qc.fair_silly-burgundy-chinook
+        - /usr/bin/env sh .sqa/script.fuzzy-apricot-tetra.sh
+        container: qc.fair_snippy-zucchini-toad
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.clammy-viridian-slug.sh
-        container: qc.lic_sunny-rust-vole
+        - /usr/bin/env sh .sqa/script.hazy-corn-rat.sh
+        container: qc.lic_dorky-teal-balinese
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-lilac-cockroach.sh
-        container: qc.ver_flabby-ruby-dunker
+        - /usr/bin/env sh .sqa/script.gummy-amaranth-zorse.sh
+        container: qc.ver_tasty-gold-loon
 timeout: 600
