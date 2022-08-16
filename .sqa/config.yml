@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-charcoal-audemer.sh
-        container: qc.acc_ready-buff-monkey
+        - /usr/bin/env sh .sqa/script.tasty-green-snail.sh
+        container: qc.acc_flimsy-mustard-lemming
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-white-wolf.sh
-        container: qc.doc_hilly-zucchini-birman
+        - /usr/bin/env sh .sqa/script.queasy-sapphire-frog.sh
+        container: qc.doc_slimy-heliotrope-lemming
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.hilly-smalt-terrier.sh
-        container: qc.doc_tacky-taupe-vole
+        - /usr/bin/env sh .sqa/script.trippy-carmine-devil.sh
+        container: qc.doc_thirsty-denim-tarsier
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-cerise-quail.sh
-        container: qc.doc_sleazy-cerulean-sparrow
+        - /usr/bin/env sh .sqa/script.breezy-emerald-urchin.sh
+        container: qc.doc_stinky-cinnabar-walrus
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-pear-dog.sh
-        container: qc.fair_flaky-emerald-wolf
+        - /usr/bin/env sh .sqa/script.muggy-yellow-dragon.sh
+        container: qc.fair_smelly-salmon-liger
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.trippy-gold-liger.sh
-        container: qc.lic_skimpy-zucchini-turtle
+        - /usr/bin/env sh .sqa/script.queasy-periwinkle-tuatara.sh
+        container: qc.lic_cheeky-razzmatazz-jellyfish
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-turquoise-eagle.sh
-        container: qc.ver_chummy-persimmon-gibbon
+        - /usr/bin/env sh .sqa/script.crabby-taupe-caiman.sh
+        container: qc.ver_boozy-magnolia-paradise
 timeout: 600
