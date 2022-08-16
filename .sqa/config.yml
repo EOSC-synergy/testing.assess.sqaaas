@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-indigo-manatee.sh
-        container: qc.acc_cozy-emerald-rattlesnake
+        - /usr/bin/env sh .sqa/script.baggy-orange-eagle.sh
+        container: qc.acc_craggy-blue-kangaroo
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-cobalt-burmese.sh
-        container: qc.doc_cozy-sapphire-goose
+        - /usr/bin/env sh .sqa/script.gloppy-wheat-albatross.sh
+        container: qc.doc_leaky-tan-chipmunk
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-coral-newt.sh
-        container: qc.doc_stuffy-vermilion-chamois
+        - /usr/bin/env sh .sqa/script.gloppy-zucchini-capuchin.sh
+        container: qc.doc_cheeky-tan-balinese
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-malachite-robin.sh
-        container: qc.doc_hazy-firebrick-discus
+        - /usr/bin/env sh .sqa/script.chewy-burgundy-lizard.sh
+        container: qc.doc_skanky-turquoise-snail
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-maroon-chamois.sh
-        container: qc.fair_gimpy-cerise-zorse
+        - /usr/bin/env sh .sqa/script.nerdy-champagne-labradoodle.sh
+        container: qc.fair_silly-burgundy-chinook
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-vermilion-whale.sh
-        container: qc.lic_nerdy-lavender-moose
+        - /usr/bin/env sh .sqa/script.clammy-viridian-slug.sh
+        container: qc.lic_sunny-rust-vole
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.fuzzy-cinnamon-forest.sh
-        container: qc.ver_lanky-eggplant-beaver
+        - /usr/bin/env sh .sqa/script.homey-lilac-cockroach.sh
+        container: qc.ver_flabby-ruby-dunker
 timeout: 600
