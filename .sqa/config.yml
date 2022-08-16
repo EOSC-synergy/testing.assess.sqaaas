@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-fuchsia-axolotl.sh
-        container: qc.acc_pokey-eggplant-raccoon
+        - /usr/bin/env sh .sqa/script.goopy-charcoal-audemer.sh
+        container: qc.acc_ready-buff-monkey
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-asparagus-turtle.sh
-        container: qc.doc_snappy-bistre-cichlid
+        - /usr/bin/env sh .sqa/script.sleazy-white-wolf.sh
+        container: qc.doc_hilly-zucchini-birman
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-azure-neanderthal.sh
-        container: qc.doc_shaky-apricot-giraffe
+        - /usr/bin/env sh .sqa/script.hilly-smalt-terrier.sh
+        container: qc.doc_tacky-taupe-vole
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-cinnamon-anteater.sh
-        container: qc.doc_ready-lemon-iguana
+        - /usr/bin/env sh .sqa/script.stealthy-cerise-quail.sh
+        container: qc.doc_sleazy-cerulean-sparrow
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.fuzzy-apricot-tetra.sh
-        container: qc.fair_snippy-zucchini-toad
+        - /usr/bin/env sh .sqa/script.paltry-pear-dog.sh
+        container: qc.fair_flaky-emerald-wolf
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-corn-rat.sh
-        container: qc.lic_dorky-teal-balinese
+        - /usr/bin/env sh .sqa/script.trippy-gold-liger.sh
+        container: qc.lic_skimpy-zucchini-turtle
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-amaranth-zorse.sh
-        container: qc.ver_tasty-gold-loon
+        - /usr/bin/env sh .sqa/script.squirrely-turquoise-eagle.sh
+        container: qc.ver_chummy-persimmon-gibbon
 timeout: 600
