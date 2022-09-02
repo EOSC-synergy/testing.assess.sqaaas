@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-green-snail.sh
-        container: qc.acc_flimsy-mustard-lemming
+        - /usr/bin/env sh .sqa/script.gimpy-teal-buffalo.sh
+        container: qc.acc_scaly-crimson-vulture
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-sapphire-frog.sh
-        container: qc.doc_slimy-heliotrope-lemming
+        - /usr/bin/env sh .sqa/script.hasty-firebrick-bison.sh
+        container: qc.doc_thirsty-amber-owl
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.trippy-carmine-devil.sh
-        container: qc.doc_thirsty-denim-tarsier
+        - /usr/bin/env sh .sqa/script.flaky-brown-skunk.sh
+        container: qc.doc_sickly-sapphire-seal
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.breezy-emerald-urchin.sh
-        container: qc.doc_stinky-cinnabar-walrus
+        - /usr/bin/env sh .sqa/script.lousy-amethyst-oyster.sh
+        container: qc.doc_cloudy-tangerine-foxhound
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-yellow-dragon.sh
-        container: qc.fair_smelly-salmon-liger
+        - /usr/bin/env sh .sqa/script.shaggy-charcoal-markhor.sh
+        container: qc.fair_ugly-ivory-grasshopper
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-periwinkle-tuatara.sh
-        container: qc.lic_cheeky-razzmatazz-jellyfish
+        - /usr/bin/env sh .sqa/script.whiny-aqua-drever.sh
+        container: qc.lic_whiny-green-armadillo
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-taupe-caiman.sh
-        container: qc.ver_boozy-magnolia-paradise
+        - /usr/bin/env sh .sqa/script.stuffy-vermilion-indri.sh
+        container: qc.ver_nerdy-magnolia-chimpanzee
 timeout: 600
