@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-cinnamon-sparrow.sh
-        container: qc.acc_crabby-cerulean-beetle
+        - /usr/bin/env sh .sqa/script.frumpy-flax-cat.sh
+        container: qc.acc_nippy-asparagus-liger
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-pear-cattle.sh
-        container: qc.doc_scaly-rust-zorse
+        - /usr/bin/env sh .sqa/script.ready-denim-tang.sh
+        container: qc.doc_hazy-lilac-scorpion
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-tomato-chimpanzee.sh
-        container: qc.doc_thirsty-wheat-ray
+        - /usr/bin/env sh .sqa/script.lanky-buff-shark.sh
+        container: qc.doc_wimpy-copper-uguisu
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-harlequin-wasp.sh
-        container: qc.doc_homely-cinnabar-dane
+        - /usr/bin/env sh .sqa/script.goopy-turquoise-booby.sh
+        container: qc.doc_stealthy-turquoise-scorpion
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.cranky-azure-guppy.sh
-        container: qc.fair_scaly-chartreuse-flamingo
+        - /usr/bin/env sh .sqa/script.wimpy-rose-kakapo.sh
+        container: qc.fair_muggy-sangria-chihuahua
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-lime-schnauzer.sh
-        container: qc.lic_skinny-flax-wasp
+        - /usr/bin/env sh .sqa/script.smelly-ochre-panda.sh
+        container: qc.lic_shaky-lilac-bracke
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-aquamarine-chihuahua.sh
-        container: qc.ver_fuzzy-pumpkin-markhor
+        - /usr/bin/env sh .sqa/script.bumpy-charcoal-javanese.sh
+        container: qc.ver_snoopy-cyan-walrus
 timeout: 600
