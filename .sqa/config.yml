@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.frumpy-flax-cat.sh
-        container: qc.acc_nippy-asparagus-liger
+        - /usr/bin/env sh .sqa/script.muzzy-sangria-mongoose.sh
+        container: qc.acc_cranky-lavender-fowl
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-denim-tang.sh
-        container: qc.doc_hazy-lilac-scorpion
+        - /usr/bin/env sh .sqa/script.boozy-lavender-uakari.sh
+        container: qc.doc_scaly-yellow-monkey
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-buff-shark.sh
-        container: qc.doc_wimpy-copper-uguisu
+        - /usr/bin/env sh .sqa/script.tacky-cobalt-ostrich.sh
+        container: qc.doc_snoopy-tomato-mau
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-turquoise-booby.sh
-        container: qc.doc_stealthy-turquoise-scorpion
+        - /usr/bin/env sh .sqa/script.crabby-maroon-leopard.sh
+        container: qc.doc_sleepy-olive-cheetah
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-rose-kakapo.sh
-        container: qc.fair_muggy-sangria-chihuahua
+        - /usr/bin/env sh .sqa/script.breezy-magenta-mule.sh
+        container: qc.fair_stuffy-pear-corgi
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-ochre-panda.sh
-        container: qc.lic_shaky-lilac-bracke
+        - /usr/bin/env sh .sqa/script.boozy-emerald-sponge.sh
+        container: qc.lic_stealthy-bistre-weasel
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-charcoal-javanese.sh
-        container: qc.ver_snoopy-cyan-walrus
+        - /usr/bin/env sh .sqa/script.sleazy-blue-giraffe.sh
+        container: qc.ver_geeky-champagne-retriever
 timeout: 600
