@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.gimpy-teal-buffalo.sh
-        container: qc.acc_scaly-crimson-vulture
+        - /usr/bin/env sh .sqa/script.skanky-cinnamon-sparrow.sh
+        container: qc.acc_crabby-cerulean-beetle
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-firebrick-bison.sh
-        container: qc.doc_thirsty-amber-owl
+        - /usr/bin/env sh .sqa/script.flabby-pear-cattle.sh
+        container: qc.doc_scaly-rust-zorse
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-brown-skunk.sh
-        container: qc.doc_sickly-sapphire-seal
+        - /usr/bin/env sh .sqa/script.bumpy-tomato-chimpanzee.sh
+        container: qc.doc_thirsty-wheat-ray
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-amethyst-oyster.sh
-        container: qc.doc_cloudy-tangerine-foxhound
+        - /usr/bin/env sh .sqa/script.lovely-harlequin-wasp.sh
+        container: qc.doc_homely-cinnabar-dane
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-charcoal-markhor.sh
-        container: qc.fair_ugly-ivory-grasshopper
+        - /usr/bin/env sh .sqa/script.cranky-azure-guppy.sh
+        container: qc.fair_scaly-chartreuse-flamingo
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.whiny-aqua-drever.sh
-        container: qc.lic_whiny-green-armadillo
+        - /usr/bin/env sh .sqa/script.squirrely-lime-schnauzer.sh
+        container: qc.lic_skinny-flax-wasp
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-vermilion-indri.sh
-        container: qc.ver_nerdy-magnolia-chimpanzee
+        - /usr/bin/env sh .sqa/script.cheeky-aquamarine-chihuahua.sh
+        container: qc.ver_fuzzy-pumpkin-markhor
 timeout: 600
