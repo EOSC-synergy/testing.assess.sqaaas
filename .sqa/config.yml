@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.sunny-tomato-dhole.sh
-        container: qc.acc_hasty-pumpkin-wombat
+        - /usr/bin/env sh .sqa/script.stuffy-myrtle-kangaroo.sh
+        container: qc.acc_woolly-celadon-chinchilla
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-olive-flounder.sh
-        container: qc.doc_lovely-green-octopus
+        - /usr/bin/env sh .sqa/script.silly-green-elephant.sh
+        container: qc.doc_messy-linen-wrasse
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-puce-drever.sh
-        container: qc.doc_sleazy-coral-cougar
+        - /usr/bin/env sh .sqa/script.goopy-brown-retriever.sh
+        container: qc.doc_freaky-persimmon-devil
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-cobalt-sheepdog.sh
-        container: qc.doc_greasy-green-caterpillar
+        - /usr/bin/env sh .sqa/script.homey-ivory-tang.sh
+        container: qc.doc_trippy-orange-nightingale
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-cinnamon-duck.sh
-        container: qc.fair_gimpy-pink-pig
+        - /usr/bin/env sh .sqa/script.snappy-silver-mouse.sh
+        container: qc.fair_chummy-fuchsia-impala
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-magnolia-macaw.sh
-        container: qc.lic_woozy-silver-coyote
+        - /usr/bin/env sh .sqa/script.pokey-flax-catfish.sh
+        container: qc.lic_sloppy-amber-wildebeest
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-pumpkin-tetra.sh
-        container: qc.ver_chummy-eggplant-cockroach
+        - /usr/bin/env sh .sqa/script.grumpy-lilac-buzzard.sh
+        container: qc.ver_slimy-indigo-eagle
 timeout: 600
