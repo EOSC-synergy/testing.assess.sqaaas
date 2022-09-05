@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-myrtle-kangaroo.sh
-        container: qc.acc_woolly-celadon-chinchilla
+        - /usr/bin/env sh .sqa/script.crappy-emerald-cow.sh
+        container: qc.acc_pretty-bistre-hedgehog
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-green-elephant.sh
-        container: qc.doc_messy-linen-wrasse
+        - /usr/bin/env sh .sqa/script.geeky-ivory-schnauzer.sh
+        container: qc.doc_gummy-smalt-mongrel
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-brown-retriever.sh
-        container: qc.doc_freaky-persimmon-devil
+        - /usr/bin/env sh .sqa/script.cheeky-cobalt-mole.sh
+        container: qc.doc_scaly-green-buzzard
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-ivory-tang.sh
-        container: qc.doc_trippy-orange-nightingale
+        - /usr/bin/env sh .sqa/script.flimsy-peach-fox.sh
+        container: qc.doc_freaky-turquoise-hornet
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-silver-mouse.sh
-        container: qc.fair_chummy-fuchsia-impala
+        - /usr/bin/env sh .sqa/script.lanky-viridian-koala.sh
+        container: qc.fair_thirsty-tomato-donkey
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-flax-catfish.sh
-        container: qc.lic_sloppy-amber-wildebeest
+        - /usr/bin/env sh .sqa/script.hasty-peach-dormouse.sh
+        container: qc.lic_flabby-pink-ferret
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.grumpy-lilac-buzzard.sh
-        container: qc.ver_slimy-indigo-eagle
+        - /usr/bin/env sh .sqa/script.sickly-viridian-audemer.sh
+        container: qc.ver_skimpy-pumpkin-cichlid
 timeout: 600
