@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.muzzy-sangria-mongoose.sh
-        container: qc.acc_cranky-lavender-fowl
+        - /usr/bin/env sh .sqa/script.messy-champagne-elephant.sh
+        container: qc.acc_jumpy-lilac-wasp
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-lavender-uakari.sh
-        container: qc.doc_scaly-yellow-monkey
+        - /usr/bin/env sh .sqa/script.shabby-blue-dollar.sh
+        container: qc.doc_shaggy-thistle-bloodhound
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-cobalt-ostrich.sh
-        container: qc.doc_snoopy-tomato-mau
+        - /usr/bin/env sh .sqa/script.muggy-vermilion-angora.sh
+        container: qc.doc_hazy-charcoal-dragonfly
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-maroon-leopard.sh
-        container: qc.doc_sleepy-olive-cheetah
+        - /usr/bin/env sh .sqa/script.cozy-ivory-chipmunk.sh
+        container: qc.doc_jumpy-thistle-whippet
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.breezy-magenta-mule.sh
-        container: qc.fair_stuffy-pear-corgi
+        - /usr/bin/env sh .sqa/script.stinky-orange-dormouse.sh
+        container: qc.fair_snippy-eggplant-dogfish
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-emerald-sponge.sh
-        container: qc.lic_stealthy-bistre-weasel
+        - /usr/bin/env sh .sqa/script.crabby-pumpkin-lobster.sh
+        container: qc.lic_woozy-salmon-cockroach
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-blue-giraffe.sh
-        container: qc.ver_geeky-champagne-retriever
+        - /usr/bin/env sh .sqa/script.cloudy-cinnabar-husky.sh
+        container: qc.ver_seedy-olivine-bombay
 timeout: 600
