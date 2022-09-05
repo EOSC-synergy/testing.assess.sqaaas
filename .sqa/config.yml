@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-champagne-elephant.sh
-        container: qc.acc_jumpy-lilac-wasp
+        - /usr/bin/env sh .sqa/script.sunny-tomato-dhole.sh
+        container: qc.acc_hasty-pumpkin-wombat
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-blue-dollar.sh
-        container: qc.doc_shaggy-thistle-bloodhound
+        - /usr/bin/env sh .sqa/script.snazzy-olive-flounder.sh
+        container: qc.doc_lovely-green-octopus
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-vermilion-angora.sh
-        container: qc.doc_hazy-charcoal-dragonfly
+        - /usr/bin/env sh .sqa/script.cheeky-puce-drever.sh
+        container: qc.doc_sleazy-coral-cougar
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-ivory-chipmunk.sh
-        container: qc.doc_jumpy-thistle-whippet
+        - /usr/bin/env sh .sqa/script.goopy-cobalt-sheepdog.sh
+        container: qc.doc_greasy-green-caterpillar
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.stinky-orange-dormouse.sh
-        container: qc.fair_snippy-eggplant-dogfish
+        - /usr/bin/env sh .sqa/script.shaggy-cinnamon-duck.sh
+        container: qc.fair_gimpy-pink-pig
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-pumpkin-lobster.sh
-        container: qc.lic_woozy-salmon-cockroach
+        - /usr/bin/env sh .sqa/script.cozy-magnolia-macaw.sh
+        container: qc.lic_woozy-silver-coyote
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-cinnabar-husky.sh
-        container: qc.ver_seedy-olivine-bombay
+        - /usr/bin/env sh .sqa/script.snazzy-pumpkin-tetra.sh
+        container: qc.ver_chummy-eggplant-cockroach
 timeout: 600
