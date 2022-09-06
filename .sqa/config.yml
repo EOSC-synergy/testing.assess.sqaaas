@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.crappy-emerald-cow.sh
-        container: qc.acc_pretty-bistre-hedgehog
+        - /usr/bin/env sh .sqa/script.stinky-heliotrope-chihuahua.sh
+        container: qc.acc_shabby-salmon-dollar
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.geeky-ivory-schnauzer.sh
-        container: qc.doc_gummy-smalt-mongrel
+        - /usr/bin/env sh .sqa/script.seedy-auburn-wrasse.sh
+        container: qc.doc_jumpy-cerise-weasel
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-cobalt-mole.sh
-        container: qc.doc_scaly-green-buzzard
+        - /usr/bin/env sh .sqa/script.clammy-emerald-mist.sh
+        container: qc.doc_homely-carmine-manatee
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.flimsy-peach-fox.sh
-        container: qc.doc_freaky-turquoise-hornet
+        - /usr/bin/env sh .sqa/script.homely-gamboge-lizard.sh
+        container: qc.doc_gummy-pear-duck
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-viridian-koala.sh
-        container: qc.fair_thirsty-tomato-donkey
+        - /usr/bin/env sh .sqa/script.sickly-pumpkin-magpie.sh
+        container: qc.fair_hazy-cornflower-orangutan
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-peach-dormouse.sh
-        container: qc.lic_flabby-pink-ferret
+        - /usr/bin/env sh .sqa/script.baggy-crimson-chameleon.sh
+        container: qc.lic_flaky-white-gibbon
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-viridian-audemer.sh
-        container: qc.ver_skimpy-pumpkin-cichlid
+        - /usr/bin/env sh .sqa/script.baggy-cerulean-tarsier.sh
+        container: qc.ver_paltry-orchid-moorhen
 timeout: 600
