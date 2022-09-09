@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-russet-octopus.sh
-        container: qc.acc_flabby-tomato-ray
+        - /usr/bin/env sh .sqa/script.slimy-amber-setter.sh
+        container: qc.acc_shabby-vermilion-zonkey
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-amethyst-peccary.sh
-        container: qc.doc_whiny-mauve-manatee
+        - /usr/bin/env sh .sqa/script.shaky-cobalt-zebra.sh
+        container: qc.doc_grumpy-brown-sheepdog
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-orange-barb.sh
-        container: qc.doc_frumpy-peach-gorilla
+        - /usr/bin/env sh .sqa/script.droopy-burgundy-bat.sh
+        container: qc.doc_woolly-wisteria-havanese
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-celadon-cattle.sh
-        container: qc.doc_zippy-flax-ray
+        - /usr/bin/env sh .sqa/script.goopy-eggplant-tarsier.sh
+        container: qc.doc_gummy-silver-moth
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-pear-opossum.sh
-        container: qc.fair_cranky-purple-squid
+        - /usr/bin/env sh .sqa/script.flabby-firebrick-beetle.sh
+        container: qc.fair_snippy-plum-mouse
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.stinky-sapphire-bear.sh
-        container: qc.lic_woozy-viridian-impala
+        - /usr/bin/env sh .sqa/script.muggy-thistle-armadillo.sh
+        container: qc.lic_skinny-smalt-scorpion
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-aquamarine-collie.sh
-        container: qc.ver_greasy-lavender-eel
+        - /usr/bin/env sh .sqa/script.lanky-plum-iguana.sh
+        container: qc.ver_baggy-white-bullfrog
 timeout: 1800
