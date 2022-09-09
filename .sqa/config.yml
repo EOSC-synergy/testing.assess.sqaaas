@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-smalt-barnacle.sh
-        container: qc.acc_squirrely-linen-labradoodle
+        - /usr/bin/env sh .sqa/script.lanky-russet-octopus.sh
+        container: qc.acc_flabby-tomato-ray
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-linen-wombat.sh
-        container: qc.doc_wheezy-sepia-manatee
+        - /usr/bin/env sh .sqa/script.seedy-amethyst-peccary.sh
+        container: qc.doc_whiny-mauve-manatee
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-copper-javanese.sh
-        container: qc.doc_droopy-turquoise-flounder
+        - /usr/bin/env sh .sqa/script.baggy-orange-barb.sh
+        container: qc.doc_frumpy-peach-gorilla
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-vermilion-ant.sh
-        container: qc.doc_beady-smalt-pig
+        - /usr/bin/env sh .sqa/script.hasty-celadon-cattle.sh
+        container: qc.doc_zippy-flax-ray
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-mustard-olm.sh
-        container: qc.fair_silly-chocolate-penguin
+        - /usr/bin/env sh .sqa/script.flaky-pear-opossum.sh
+        container: qc.fair_cranky-purple-squid
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-pink-lynx.sh
-        container: qc.lic_lanky-fuchsia-rhinoceros
+        - /usr/bin/env sh .sqa/script.stinky-sapphire-bear.sh
+        container: qc.lic_woozy-viridian-impala
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-brown-mouse.sh
-        container: qc.ver_whiny-carmine-crocodile
+        - /usr/bin/env sh .sqa/script.surly-aquamarine-collie.sh
+        container: qc.ver_greasy-lavender-eel
 timeout: 1800
