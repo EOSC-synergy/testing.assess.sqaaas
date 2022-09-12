@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: 1.7.0_no_kubectl
+      branch: release/1.7.0
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/darce-i3m/testing:
       branch: main
@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-amber-setter.sh
-        container: qc.acc_shabby-vermilion-zonkey
+        - /usr/bin/env sh .sqa/script.whiny-platinum-vulture.sh
+        container: qc.acc_muggy-sangria-cuscus
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-cobalt-zebra.sh
-        container: qc.doc_grumpy-brown-sheepdog
+        - /usr/bin/env sh .sqa/script.woolly-firebrick-axolotl.sh
+        container: qc.doc_snazzy-orange-zonkey
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-burgundy-bat.sh
-        container: qc.doc_woolly-wisteria-havanese
+        - /usr/bin/env sh .sqa/script.scummy-saffron-zebu.sh
+        container: qc.doc_stealthy-indigo-grasshopper
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-eggplant-tarsier.sh
-        container: qc.doc_gummy-silver-moth
+        - /usr/bin/env sh .sqa/script.shabby-indigo-turkey.sh
+        container: qc.doc_pretty-teal-vole
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-firebrick-beetle.sh
-        container: qc.fair_snippy-plum-mouse
+        - /usr/bin/env sh .sqa/script.bumpy-tan-maltese.sh
+        container: qc.fair_slimy-cinnabar-woodlouse
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-thistle-armadillo.sh
-        container: qc.lic_skinny-smalt-scorpion
+        - /usr/bin/env sh .sqa/script.hazy-grey-mastiff.sh
+        container: qc.lic_bumpy-tomato-shrew
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-plum-iguana.sh
-        container: qc.ver_baggy-white-bullfrog
+        - /usr/bin/env sh .sqa/script.grumpy-auburn-axolotl.sh
+        container: qc.ver_hasty-yellow-tortoise
 timeout: 1800
