@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.whiny-platinum-vulture.sh
-        container: qc.acc_muggy-sangria-cuscus
+        - /usr/bin/env sh .sqa/script.crappy-ochre-guppy.sh
+        container: qc.acc_thirsty-denim-ladybird
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-firebrick-axolotl.sh
-        container: qc.doc_snazzy-orange-zonkey
+        - /usr/bin/env sh .sqa/script.freaky-indigo-burmese.sh
+        container: qc.doc_skanky-cerulean-barnacle
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-saffron-zebu.sh
-        container: qc.doc_stealthy-indigo-grasshopper
+        - /usr/bin/env sh .sqa/script.bluesy-lemon-husky.sh
+        container: qc.doc_freaky-ruby-kiwi
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-indigo-turkey.sh
-        container: qc.doc_pretty-teal-vole
+        - /usr/bin/env sh .sqa/script.breezy-cornflower-earwig.sh
+        container: qc.doc_chummy-heliotrope-burmese
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-tan-maltese.sh
-        container: qc.fair_slimy-cinnabar-woodlouse
+        - /usr/bin/env sh .sqa/script.hasty-copper-cassowary.sh
+        container: qc.fair_chewy-mustard-ladybird
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-grey-mastiff.sh
-        container: qc.lic_bumpy-tomato-shrew
+        - /usr/bin/env sh .sqa/script.squirrely-orange-stingray.sh
+        container: qc.lic_skanky-cornflower-kudu
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.grumpy-auburn-axolotl.sh
-        container: qc.ver_hasty-yellow-tortoise
+        - /usr/bin/env sh .sqa/script.dorky-cardinal-axolotl.sh
+        container: qc.ver_cloudy-persimmon-bee
 timeout: 1800
