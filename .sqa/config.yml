@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.crappy-ochre-guppy.sh
-        container: qc.acc_thirsty-denim-ladybird
+        - /usr/bin/env sh .sqa/script.lanky-orange-akbash.sh
+        container: qc.acc_bumpy-black-mammoth
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.freaky-indigo-burmese.sh
-        container: qc.doc_skanky-cerulean-barnacle
+        - /usr/bin/env sh .sqa/script.nippy-goldenrod-corgi.sh
+        container: qc.doc_nippy-amethyst-tzu
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.bluesy-lemon-husky.sh
-        container: qc.doc_freaky-ruby-kiwi
+        - /usr/bin/env sh .sqa/script.wiggy-mustard-dogfish.sh
+        container: qc.doc_tasty-seashell-bison
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.breezy-cornflower-earwig.sh
-        container: qc.doc_chummy-heliotrope-burmese
+        - /usr/bin/env sh .sqa/script.bumpy-thistle-monster.sh
+        container: qc.doc_stuffy-magnolia-javanese
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-copper-cassowary.sh
-        container: qc.fair_chewy-mustard-ladybird
+        - /usr/bin/env sh .sqa/script.seedy-magenta-chow.sh
+        container: qc.fair_beady-rose-angelfish
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-orange-stingray.sh
-        container: qc.lic_skanky-cornflower-kudu
+        - /usr/bin/env sh .sqa/script.trippy-charcoal-quokka.sh
+        container: qc.lic_sleepy-cornflower-goose
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-cardinal-axolotl.sh
-        container: qc.ver_cloudy-persimmon-bee
+        - /usr/bin/env sh .sqa/script.lanky-ecru-woodlouse.sh
+        container: qc.ver_pretty-amethyst-dollar
 timeout: 1800
