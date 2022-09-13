@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-orange-akbash.sh
-        container: qc.acc_bumpy-black-mammoth
+        - /usr/bin/env sh .sqa/script.grumpy-bronze-shrimp.sh
+        container: qc.acc_queasy-emerald-liger
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.nippy-goldenrod-corgi.sh
-        container: qc.doc_nippy-amethyst-tzu
+        - /usr/bin/env sh .sqa/script.droopy-maroon-cow.sh
+        container: qc.doc_flaky-silver-lobster
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.wiggy-mustard-dogfish.sh
-        container: qc.doc_tasty-seashell-bison
+        - /usr/bin/env sh .sqa/script.smelly-corn-mau.sh
+        container: qc.doc_blurry-olive-mongoose
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-thistle-monster.sh
-        container: qc.doc_stuffy-magnolia-javanese
+        - /usr/bin/env sh .sqa/script.tacky-auburn-scorpion.sh
+        container: qc.doc_flabby-azure-chamois
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-magenta-chow.sh
-        container: qc.fair_beady-rose-angelfish
+        - /usr/bin/env sh .sqa/script.wimpy-pumpkin-tarsier.sh
+        container: qc.fair_chewy-olivine-frise
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.trippy-charcoal-quokka.sh
-        container: qc.lic_sleepy-cornflower-goose
+        - /usr/bin/env sh .sqa/script.flimsy-wisteria-coati.sh
+        container: qc.lic_skinny-xanthic-zorse
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-ecru-woodlouse.sh
-        container: qc.ver_pretty-amethyst-dollar
+        - /usr/bin/env sh .sqa/script.clammy-coral-albatross.sh
+        container: qc.ver_ready-turquoise-caracal
 timeout: 1800
