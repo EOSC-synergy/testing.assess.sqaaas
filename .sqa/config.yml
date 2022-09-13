@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-persimmon-caracal.sh
-        container: qc.acc_snazzy-smalt-magpie
+        - /usr/bin/env sh .sqa/script.bumpy-myrtle-leopard.sh
+        container: qc.acc_lousy-zucchini-dodo
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-bronze-warthog.sh
-        container: qc.doc_smelly-lavender-koala
+        - /usr/bin/env sh .sqa/script.crabby-vermilion-quokka.sh
+        container: qc.doc_sunny-smalt-discus
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-denim-indri.sh
-        container: qc.doc_skanky-blue-anteater
+        - /usr/bin/env sh .sqa/script.foggy-lilac-cuttlefish.sh
+        container: qc.doc_leaky-pink-balinese
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-carmine-dodo.sh
-        container: qc.doc_trippy-grey-zonkey
+        - /usr/bin/env sh .sqa/script.skanky-charcoal-mayfly.sh
+        container: qc.doc_slimy-pumpkin-hornet
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-brass-beetle.sh
-        container: qc.fair_beady-cerulean-hornet
+        - /usr/bin/env sh .sqa/script.lumpy-pear-echidna.sh
+        container: qc.fair_craggy-fuchsia-lemming
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.freaky-emerald-markhor.sh
-        container: qc.lic_fuzzy-burgundy-earwig
+        - /usr/bin/env sh .sqa/script.lanky-tangerine-falcon.sh
+        container: qc.lic_muzzy-silver-rat
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-ultramarine-buffalo.sh
-        container: qc.ver_baggy-violet-beetle
+        - /usr/bin/env sh .sqa/script.shaggy-cerulean-quetzal.sh
+        container: qc.ver_thirsty-dandelion-octopus
 timeout: 1800
