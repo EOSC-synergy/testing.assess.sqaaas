@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.squeaky-maroon-shark.sh
-        container: qc.acc_ready-myrtle-newt
+        - /usr/bin/env sh .sqa/script.sleepy-persimmon-caracal.sh
+        container: qc.acc_snazzy-smalt-magpie
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-burgundy-mongoose.sh
-        container: qc.doc_wimpy-amethyst-fossa
+        - /usr/bin/env sh .sqa/script.woozy-bronze-warthog.sh
+        container: qc.doc_smelly-lavender-koala
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-mauve-neanderthal.sh
-        container: qc.doc_thirsty-cinnabar-fousek
+        - /usr/bin/env sh .sqa/script.sleepy-denim-indri.sh
+        container: qc.doc_skanky-blue-anteater
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.wiggy-yellow-wasp.sh
-        container: qc.doc_cheeky-lemon-crane
+        - /usr/bin/env sh .sqa/script.cheeky-carmine-dodo.sh
+        container: qc.doc_trippy-grey-zonkey
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.trippy-peach-markhor.sh
-        container: qc.fair_bluesy-mauve-magpie
+        - /usr/bin/env sh .sqa/script.foggy-brass-beetle.sh
+        container: qc.fair_beady-cerulean-hornet
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-tomato-centipede.sh
-        container: qc.lic_boozy-maroon-balinese
+        - /usr/bin/env sh .sqa/script.freaky-emerald-markhor.sh
+        container: qc.lic_fuzzy-burgundy-earwig
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-cornflower-fowl.sh
-        container: qc.ver_shabby-red-camel
+        - /usr/bin/env sh .sqa/script.pasty-ultramarine-buffalo.sh
+        container: qc.ver_baggy-violet-beetle
 timeout: 1800
