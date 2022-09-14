@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-persimmon-termite.sh
-        container: qc.acc_hasty-taupe-cattle
+        - /usr/bin/env sh .sqa/script.cranky-smalt-pig.sh
+        container: qc.acc_crabby-dandelion-mammoth
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-silver-mole.sh
-        container: qc.doc_wheezy-plum-nightingale
+        - /usr/bin/env sh .sqa/script.wimpy-scarlet-albatross.sh
+        container: qc.doc_randy-sangria-vole
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-wheat-fousek.sh
-        container: qc.doc_scanty-silver-coyote
+        - /usr/bin/env sh .sqa/script.skinny-persimmon-cat.sh
+        container: qc.doc_cranky-persimmon-lion
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.wiggy-scarlet-dragon.sh
-        container: qc.doc_flabby-cyan-duck
+        - /usr/bin/env sh .sqa/script.woozy-smalt-discus.sh
+        container: qc.doc_randy-jade-albatross
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-flax-barb.sh
-        container: qc.fair_dorky-cornflower-rattlesnake
+        - /usr/bin/env sh .sqa/script.slaphappy-cornflower-dog.sh
+        container: qc.fair_blurry-sapphire-schnauzer
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-saffron-weasel.sh
-        container: qc.lic_trippy-coral-frog
+        - /usr/bin/env sh .sqa/script.sleazy-emerald-coral.sh
+        container: qc.lic_sloppy-chestnut-bonobo
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.bluesy-aqua-moorhen.sh
-        container: qc.ver_tacky-cinnamon-rattlesnake
+        - /usr/bin/env sh .sqa/script.clammy-eggplant-earwig.sh
+        container: qc.ver_beady-brass-quoll
 timeout: 1800
