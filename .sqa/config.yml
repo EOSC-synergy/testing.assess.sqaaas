@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.cranky-smalt-pig.sh
-        container: qc.acc_crabby-dandelion-mammoth
+        - /usr/bin/env sh .sqa/script.flimsy-amethyst-horse.sh
+        container: qc.acc_goopy-flax-lynx
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-scarlet-albatross.sh
-        container: qc.doc_randy-sangria-vole
+        - /usr/bin/env sh .sqa/script.hilly-green-chipmunk.sh
+        container: qc.doc_thirsty-taupe-serval
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-persimmon-cat.sh
-        container: qc.doc_cranky-persimmon-lion
+        - /usr/bin/env sh .sqa/script.dorky-puce-russel.sh
+        container: qc.doc_silly-zucchini-capuchin
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-smalt-discus.sh
-        container: qc.doc_randy-jade-albatross
+        - /usr/bin/env sh .sqa/script.skinny-crimson-fly.sh
+        container: qc.doc_cheeky-cerulean-spitz
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-cornflower-dog.sh
-        container: qc.fair_blurry-sapphire-schnauzer
+        - /usr/bin/env sh .sqa/script.cloudy-jade-camel.sh
+        container: qc.fair_bumpy-apricot-newt
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-emerald-coral.sh
-        container: qc.lic_sloppy-chestnut-bonobo
+        - /usr/bin/env sh .sqa/script.squeaky-chartreuse-oriole.sh
+        container: qc.lic_wimpy-goldenrod-bongo
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.clammy-eggplant-earwig.sh
-        container: qc.ver_beady-brass-quoll
+        - /usr/bin/env sh .sqa/script.flimsy-eggplant-whale.sh
+        container: qc.ver_geeky-beige-birman
 timeout: 1800
