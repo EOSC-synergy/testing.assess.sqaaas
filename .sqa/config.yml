@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-myrtle-leopard.sh
-        container: qc.acc_lousy-zucchini-dodo
+        - /usr/bin/env sh .sqa/script.paltry-persimmon-termite.sh
+        container: qc.acc_hasty-taupe-cattle
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-vermilion-quokka.sh
-        container: qc.doc_sunny-smalt-discus
+        - /usr/bin/env sh .sqa/script.droopy-silver-mole.sh
+        container: qc.doc_wheezy-plum-nightingale
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-lilac-cuttlefish.sh
-        container: qc.doc_leaky-pink-balinese
+        - /usr/bin/env sh .sqa/script.pretty-wheat-fousek.sh
+        container: qc.doc_scanty-silver-coyote
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-charcoal-mayfly.sh
-        container: qc.doc_slimy-pumpkin-hornet
+        - /usr/bin/env sh .sqa/script.wiggy-scarlet-dragon.sh
+        container: qc.doc_flabby-cyan-duck
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-pear-echidna.sh
-        container: qc.fair_craggy-fuchsia-lemming
+        - /usr/bin/env sh .sqa/script.thirsty-flax-barb.sh
+        container: qc.fair_dorky-cornflower-rattlesnake
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-tangerine-falcon.sh
-        container: qc.lic_muzzy-silver-rat
+        - /usr/bin/env sh .sqa/script.bumpy-saffron-weasel.sh
+        container: qc.lic_trippy-coral-frog
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-cerulean-quetzal.sh
-        container: qc.ver_thirsty-dandelion-octopus
+        - /usr/bin/env sh .sqa/script.bluesy-aqua-moorhen.sh
+        container: qc.ver_tacky-cinnamon-rattlesnake
 timeout: 1800
