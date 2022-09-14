@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-green-crocodile.sh
-        container: qc.acc_chummy-magnolia-quoll
+        - /usr/bin/env sh .sqa/script.muzzy-fuchsia-monkey.sh
+        container: qc.acc_leaky-viridian-boar
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-red-newfoundland.sh
-        container: qc.doc_sloppy-orchid-binturong
+        - /usr/bin/env sh .sqa/script.snoopy-lemon-foxhound.sh
+        container: qc.doc_greasy-pumpkin-dog
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.nippy-red-uakari.sh
-        container: qc.doc_flaky-flax-labradoodle
+        - /usr/bin/env sh .sqa/script.tasty-amaranth-crane.sh
+        container: qc.doc_shaggy-brass-fousek
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-mustard-labradoodle.sh
-        container: qc.doc_clammy-lavender-spider
+        - /usr/bin/env sh .sqa/script.homely-blue-ray.sh
+        container: qc.doc_scaly-jade-mouse
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-ecru-panda.sh
-        container: qc.fair_sleazy-rose-jaguar
+        - /usr/bin/env sh .sqa/script.grumpy-aquamarine-spaniel.sh
+        container: qc.fair_bluesy-xanthic-barnacle
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-salmon-saola.sh
-        container: qc.lic_scaly-cerulean-oyster
+        - /usr/bin/env sh .sqa/script.muzzy-corn-slug.sh
+        container: qc.lic_homey-chocolate-caterpillar
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.clammy-celadon-bobcat.sh
-        container: qc.ver_lumpy-red-dollar
+        - /usr/bin/env sh .sqa/script.homely-celadon-beaver.sh
+        container: qc.ver_skinny-firebrick-mandrill
 timeout: 1800
