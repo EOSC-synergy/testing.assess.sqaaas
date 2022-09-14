@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.grumpy-persimmon-warthog.sh
-        container: qc.acc_tacky-charcoal-setter
+        - /usr/bin/env sh .sqa/script.lanky-green-crocodile.sh
+        container: qc.acc_chummy-magnolia-quoll
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-coral-chinook.sh
-        container: qc.doc_squeaky-violet-wallaby
+        - /usr/bin/env sh .sqa/script.foggy-red-newfoundland.sh
+        container: qc.doc_sloppy-orchid-binturong
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-viridian-chamois.sh
-        container: qc.doc_fuzzy-lilac-cockroach
+        - /usr/bin/env sh .sqa/script.nippy-red-uakari.sh
+        container: qc.doc_flaky-flax-labradoodle
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-fuchsia-flamingo.sh
-        container: qc.doc_silly-thistle-wasp
+        - /usr/bin/env sh .sqa/script.boozy-mustard-labradoodle.sh
+        container: qc.doc_clammy-lavender-spider
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-burgundy-hyena.sh
-        container: qc.fair_squirrely-myrtle-crocodile
+        - /usr/bin/env sh .sqa/script.leaky-ecru-panda.sh
+        container: qc.fair_sleazy-rose-jaguar
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-buff-foxhound.sh
-        container: qc.lic_trippy-champagne-kudu
+        - /usr/bin/env sh .sqa/script.slaphappy-salmon-saola.sh
+        container: qc.lic_scaly-cerulean-oyster
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-black-mist.sh
-        container: qc.ver_lumpy-wheat-malamute
+        - /usr/bin/env sh .sqa/script.clammy-celadon-bobcat.sh
+        container: qc.ver_lumpy-red-dollar
 timeout: 1800
