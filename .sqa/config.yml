@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.muzzy-fuchsia-monkey.sh
-        container: qc.acc_leaky-viridian-boar
+        - /usr/bin/env sh .sqa/script.snappy-plum-kangaroo.sh
+        container: qc.acc_leaky-copper-cattle
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snoopy-lemon-foxhound.sh
-        container: qc.doc_greasy-pumpkin-dog
+        - /usr/bin/env sh .sqa/script.nippy-tomato-grouse.sh
+        container: qc.doc_tacky-maroon-toad
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-amaranth-crane.sh
-        container: qc.doc_shaggy-brass-fousek
+        - /usr/bin/env sh .sqa/script.snoopy-amethyst-booby.sh
+        container: qc.doc_crappy-zucchini-squirrel
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-blue-ray.sh
-        container: qc.doc_scaly-jade-mouse
+        - /usr/bin/env sh .sqa/script.crappy-rust-guppy.sh
+        container: qc.doc_frumpy-xanthic-tiger
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.grumpy-aquamarine-spaniel.sh
-        container: qc.fair_bluesy-xanthic-barnacle
+        - /usr/bin/env sh .sqa/script.scaly-taupe-chipmunk.sh
+        container: qc.fair_snazzy-cerise-javanese
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.muzzy-corn-slug.sh
-        container: qc.lic_homey-chocolate-caterpillar
+        - /usr/bin/env sh .sqa/script.stealthy-apricot-falcon.sh
+        container: qc.lic_squirrely-lavender-clam
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-celadon-beaver.sh
-        container: qc.ver_skinny-firebrick-mandrill
+        - /usr/bin/env sh .sqa/script.snippy-olivine-malamute.sh
+        container: qc.ver_shabby-turquoise-chin
 timeout: 1800
