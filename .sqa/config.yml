@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.stinky-plum-lobster.sh
-        container: qc.acc_lanky-ruby-rottweiler
+        - /usr/bin/env sh .sqa/script.beady-teal-dogfish.sh
+        container: qc.acc_silly-champagne-anteater
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-pumpkin-kakapo.sh
-        container: qc.doc_sickly-seashell-weasel
+        - /usr/bin/env sh .sqa/script.homey-dandelion-liger.sh
+        container: qc.doc_slimy-orchid-binturong
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-blue-grouse.sh
-        container: qc.doc_snippy-rose-kingfisher
+        - /usr/bin/env sh .sqa/script.gummy-chestnut-sloth.sh
+        container: qc.doc_seedy-sangria-falcon
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-beige-iguana.sh
-        container: qc.doc_snoopy-lavender-birman
+        - /usr/bin/env sh .sqa/script.pokey-scarlet-toucan.sh
+        container: qc.doc_lanky-vermilion-harrier
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.cranky-vermilion-albatross.sh
-        container: qc.fair_snazzy-wheat-whippet
+        - /usr/bin/env sh .sqa/script.snazzy-puce-cat.sh
+        container: qc.fair_droopy-platinum-angelfish
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-carmine-millipede.sh
-        container: qc.lic_grumpy-dandelion-mole
+        - /usr/bin/env sh .sqa/script.ready-lilac-squid.sh
+        container: qc.lic_freaky-malachite-mongoose
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-xanthic-mau.sh
-        container: qc.ver_skimpy-orange-angelfish
+        - /usr/bin/env sh .sqa/script.wiggy-amaranth-malamute.sh
+        container: qc.ver_gummy-crimson-hyena
 timeout: 1800
