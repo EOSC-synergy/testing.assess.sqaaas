@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-chartreuse-heron.sh
-        container: qc.acc_grumpy-azure-cuttlefish
+        - /usr/bin/env sh .sqa/script.chummy-white-frigatebird.sh
+        container: qc.acc_slimy-taupe-swan
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-scarlet-impala.sh
-        container: qc.doc_beady-persimmon-spaniel
+        - /usr/bin/env sh .sqa/script.snappy-orange-barnacle.sh
+        container: qc.doc_clammy-crimson-sloth
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.bluesy-russet-affenpinscher.sh
-        container: qc.doc_messy-aqua-iguana
+        - /usr/bin/env sh .sqa/script.sleepy-beige-balinese.sh
+        container: qc.doc_muggy-russet-malamute
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.nerdy-olivine-duck.sh
-        container: qc.doc_bumpy-dandelion-capybara
+        - /usr/bin/env sh .sqa/script.homey-taupe-cuscus.sh
+        container: qc.doc_stuffy-jade-quoll
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-pink-salamander.sh
-        container: qc.fair_lumpy-yellow-caiman
+        - /usr/bin/env sh .sqa/script.blurry-thistle-jaguar.sh
+        container: qc.fair_silly-chestnut-ostrich
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-sepia-armadillo.sh
-        container: qc.lic_cheeky-brown-hummingbird
+        - /usr/bin/env sh .sqa/script.scummy-cardinal-chinchilla.sh
+        container: qc.lic_ugly-pink-rattlesnake
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-red-catfish.sh
-        container: qc.ver_hazy-thistle-newfoundland
+        - /usr/bin/env sh .sqa/script.wiggy-flax-warthog.sh
+        container: qc.ver_shaky-charcoal-bullfrog
 timeout: 1800
