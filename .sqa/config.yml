@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-plum-kangaroo.sh
-        container: qc.acc_leaky-copper-cattle
+        - /usr/bin/env sh .sqa/script.slaphappy-chartreuse-heron.sh
+        container: qc.acc_grumpy-azure-cuttlefish
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.nippy-tomato-grouse.sh
-        container: qc.doc_tacky-maroon-toad
+        - /usr/bin/env sh .sqa/script.chummy-scarlet-impala.sh
+        container: qc.doc_beady-persimmon-spaniel
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.snoopy-amethyst-booby.sh
-        container: qc.doc_crappy-zucchini-squirrel
+        - /usr/bin/env sh .sqa/script.bluesy-russet-affenpinscher.sh
+        container: qc.doc_messy-aqua-iguana
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.crappy-rust-guppy.sh
-        container: qc.doc_frumpy-xanthic-tiger
+        - /usr/bin/env sh .sqa/script.nerdy-olivine-duck.sh
+        container: qc.doc_bumpy-dandelion-capybara
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-taupe-chipmunk.sh
-        container: qc.fair_snazzy-cerise-javanese
+        - /usr/bin/env sh .sqa/script.stuffy-pink-salamander.sh
+        container: qc.fair_lumpy-yellow-caiman
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-apricot-falcon.sh
-        container: qc.lic_squirrely-lavender-clam
+        - /usr/bin/env sh .sqa/script.sleepy-sepia-armadillo.sh
+        container: qc.lic_cheeky-brown-hummingbird
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-olivine-malamute.sh
-        container: qc.ver_shabby-turquoise-chin
+        - /usr/bin/env sh .sqa/script.randy-red-catfish.sh
+        container: qc.ver_hazy-thistle-newfoundland
 timeout: 1800
