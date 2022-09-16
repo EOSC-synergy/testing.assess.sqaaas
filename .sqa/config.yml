@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-tangerine-chinook.sh
-        container: qc.acc_crabby-magenta-deer
+        - /usr/bin/env sh .sqa/script.woolly-denim-swan.sh
+        container: qc.acc_queasy-chocolate-otter
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.greasy-copper-fly.sh
-        container: qc.doc_randy-coral-wasp
+        - /usr/bin/env sh .sqa/script.queasy-cyan-coyote.sh
+        container: qc.doc_messy-taupe-neanderthal
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-celadon-woodlouse.sh
-        container: qc.doc_paltry-champagne-havanese
+        - /usr/bin/env sh .sqa/script.snippy-puce-tamarin.sh
+        container: qc.doc_randy-jade-malamute
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-beige-peccary.sh
-        container: qc.doc_slaphappy-aquamarine-rattlesnake
+        - /usr/bin/env sh .sqa/script.hilly-celadon-lobster.sh
+        container: qc.doc_silly-platinum-oriole
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-orange-beaver.sh
-        container: qc.fair_nippy-peach-hare
+        - /usr/bin/env sh .sqa/script.bluesy-grey-duck.sh
+        container: qc.fair_cloudy-asparagus-barracuda
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.whiny-pear-cockroach.sh
-        container: qc.lic_ready-asparagus-lizard
+        - /usr/bin/env sh .sqa/script.fuzzy-cerulean-havanese.sh
+        container: qc.lic_cozy-scarlet-seahorse
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-bistre-balinese.sh
-        container: qc.ver_sleazy-vermilion-stingray
+        - /usr/bin/env sh .sqa/script.ugly-goldenrod-lobster.sh
+        container: qc.ver_jumpy-tomato-wildebeest
 timeout: 1800
