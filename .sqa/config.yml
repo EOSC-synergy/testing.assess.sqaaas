@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-white-frigatebird.sh
-        container: qc.acc_slimy-taupe-swan
+        - /usr/bin/env sh .sqa/script.stinky-plum-lobster.sh
+        container: qc.acc_lanky-ruby-rottweiler
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-orange-barnacle.sh
-        container: qc.doc_clammy-crimson-sloth
+        - /usr/bin/env sh .sqa/script.squirrely-pumpkin-kakapo.sh
+        container: qc.doc_sickly-seashell-weasel
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-beige-balinese.sh
-        container: qc.doc_muggy-russet-malamute
+        - /usr/bin/env sh .sqa/script.homely-blue-grouse.sh
+        container: qc.doc_snippy-rose-kingfisher
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-taupe-cuscus.sh
-        container: qc.doc_stuffy-jade-quoll
+        - /usr/bin/env sh .sqa/script.stealthy-beige-iguana.sh
+        container: qc.doc_snoopy-lavender-birman
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.blurry-thistle-jaguar.sh
-        container: qc.fair_silly-chestnut-ostrich
+        - /usr/bin/env sh .sqa/script.cranky-vermilion-albatross.sh
+        container: qc.fair_snazzy-wheat-whippet
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-cardinal-chinchilla.sh
-        container: qc.lic_ugly-pink-rattlesnake
+        - /usr/bin/env sh .sqa/script.ugly-carmine-millipede.sh
+        container: qc.lic_grumpy-dandelion-mole
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.wiggy-flax-warthog.sh
-        container: qc.ver_shaky-charcoal-bullfrog
+        - /usr/bin/env sh .sqa/script.boozy-xanthic-mau.sh
+        container: qc.ver_skimpy-orange-angelfish
 timeout: 1800
