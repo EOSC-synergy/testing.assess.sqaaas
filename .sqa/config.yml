@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-blue-rabbit.sh
-        container: qc.acc_frumpy-rose-iguana
+        - /usr/bin/env sh .sqa/script.chewy-tangerine-chinook.sh
+        container: qc.acc_crabby-magenta-deer
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-scarlet-tarantula.sh
-        container: qc.doc_stealthy-plum-wrasse
+        - /usr/bin/env sh .sqa/script.greasy-copper-fly.sh
+        container: qc.doc_randy-coral-wasp
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.grumpy-cinnamon-chihuahua.sh
-        container: qc.doc_surly-harlequin-tuatara
+        - /usr/bin/env sh .sqa/script.cloudy-celadon-woodlouse.sh
+        container: qc.doc_paltry-champagne-havanese
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.crappy-ochre-barb.sh
-        container: qc.doc_nerdy-gamboge-bird
+        - /usr/bin/env sh .sqa/script.tasty-beige-peccary.sh
+        container: qc.doc_slaphappy-aquamarine-rattlesnake
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-crimson-armadillo.sh
-        container: qc.fair_jumpy-pumpkin-hound
+        - /usr/bin/env sh .sqa/script.sloppy-orange-beaver.sh
+        container: qc.fair_nippy-peach-hare
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-thistle-nightingale.sh
-        container: qc.lic_cozy-brass-spaniel
+        - /usr/bin/env sh .sqa/script.whiny-pear-cockroach.sh
+        container: qc.lic_ready-asparagus-lizard
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-ruby-uakari.sh
-        container: qc.ver_whiny-silver-saola
+        - /usr/bin/env sh .sqa/script.stuffy-bistre-balinese.sh
+        container: qc.ver_sleazy-vermilion-stingray
 timeout: 1800
