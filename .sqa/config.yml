@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-teal-dogfish.sh
-        container: qc.acc_silly-champagne-anteater
+        - /usr/bin/env sh .sqa/script.scaly-blue-rabbit.sh
+        container: qc.acc_frumpy-rose-iguana
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-dandelion-liger.sh
-        container: qc.doc_slimy-orchid-binturong
+        - /usr/bin/env sh .sqa/script.gamy-scarlet-tarantula.sh
+        container: qc.doc_stealthy-plum-wrasse
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-chestnut-sloth.sh
-        container: qc.doc_seedy-sangria-falcon
+        - /usr/bin/env sh .sqa/script.grumpy-cinnamon-chihuahua.sh
+        container: qc.doc_surly-harlequin-tuatara
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-scarlet-toucan.sh
-        container: qc.doc_lanky-vermilion-harrier
+        - /usr/bin/env sh .sqa/script.crappy-ochre-barb.sh
+        container: qc.doc_nerdy-gamboge-bird
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-puce-cat.sh
-        container: qc.fair_droopy-platinum-angelfish
+        - /usr/bin/env sh .sqa/script.smelly-crimson-armadillo.sh
+        container: qc.fair_jumpy-pumpkin-hound
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-lilac-squid.sh
-        container: qc.lic_freaky-malachite-mongoose
+        - /usr/bin/env sh .sqa/script.woolly-thistle-nightingale.sh
+        container: qc.lic_cozy-brass-spaniel
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.wiggy-amaranth-malamute.sh
-        container: qc.ver_gummy-crimson-hyena
+        - /usr/bin/env sh .sqa/script.chewy-ruby-uakari.sh
+        container: qc.ver_whiny-silver-saola
 timeout: 1800
