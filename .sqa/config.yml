@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-teal-bee.sh
-        container: qc.acc_beady-aquamarine-squirrel
+        - /usr/bin/env sh .sqa/script.skanky-wheat-frise.sh
+        container: qc.acc_chummy-chestnut-barb
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-jade-earwig.sh
-        container: qc.doc_hilly-coral-neanderthal
+        - /usr/bin/env sh .sqa/script.gummy-beige-baboon.sh
+        container: qc.doc_scaly-cardinal-angelfish
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-cinnamon-snail.sh
-        container: qc.doc_geeky-indigo-capuchin
+        - /usr/bin/env sh .sqa/script.randy-goldenrod-maltese.sh
+        container: qc.doc_zippy-xanthic-bordeaux
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.nippy-asparagus-maltese.sh
-        container: qc.doc_seedy-white-saola
+        - /usr/bin/env sh .sqa/script.sunny-plum-barb.sh
+        container: qc.doc_nippy-malachite-frigatebird
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-chestnut-moth.sh
-        container: qc.fair_flaky-ruby-tapir
+        - /usr/bin/env sh .sqa/script.lanky-lavender-chameleon.sh
+        container: qc.fair_wiggy-buff-wolf
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.flimsy-flax-dodo.sh
-        container: qc.lic_paltry-cyan-tetra
+        - /usr/bin/env sh .sqa/script.foggy-cinnabar-llama.sh
+        container: qc.lic_messy-red-echidna
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-periwinkle-jellyfish.sh
-        container: qc.ver_muggy-lavender-tarantula
+        - /usr/bin/env sh .sqa/script.whiny-chocolate-baboon.sh
+        container: qc.ver_queasy-azure-cougar
 timeout: 1800
