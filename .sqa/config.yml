@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-vermilion-dane.sh
-        container: qc.acc_lanky-thistle-turkey
+        - /usr/bin/env sh .sqa/script.seedy-alizarin-indri.sh
+        container: qc.acc_whiny-rose-gibbon
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.fuzzy-viridian-barracuda.sh
-        container: qc.doc_gimpy-olivine-clam
+        - /usr/bin/env sh .sqa/script.flabby-mustard-jaguar.sh
+        container: qc.doc_hasty-dandelion-ladybird
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-puce-hyena.sh
-        container: qc.doc_chewy-celadon-kakapo
+        - /usr/bin/env sh .sqa/script.queasy-brass-dormouse.sh
+        container: qc.doc_boozy-denim-quoll
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-sangria-mole.sh
-        container: qc.doc_stealthy-plum-hyena
+        - /usr/bin/env sh .sqa/script.thirsty-saffron-mandrill.sh
+        container: qc.doc_skimpy-brass-owl
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-myrtle-retriever.sh
-        container: qc.fair_gloppy-alizarin-burmese
+        - /usr/bin/env sh .sqa/script.clammy-wisteria-panda.sh
+        container: qc.fair_chummy-copper-newt
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.muzzy-auburn-macaque.sh
-        container: qc.lic_beady-flax-quoll
+        - /usr/bin/env sh .sqa/script.lousy-olivine-akbash.sh
+        container: qc.lic_sleazy-apricot-dachsbracke
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-chocolate-discus.sh
-        container: qc.ver_tacky-azure-stoat
+        - /usr/bin/env sh .sqa/script.breezy-amber-cattle.sh
+        container: qc.ver_shabby-plum-ragdoll
 timeout: 1800
