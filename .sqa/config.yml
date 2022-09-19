@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-wheat-frise.sh
-        container: qc.acc_chummy-chestnut-barb
+        - /usr/bin/env sh .sqa/script.pokey-vermilion-dane.sh
+        container: qc.acc_lanky-thistle-turkey
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-beige-baboon.sh
-        container: qc.doc_scaly-cardinal-angelfish
+        - /usr/bin/env sh .sqa/script.fuzzy-viridian-barracuda.sh
+        container: qc.doc_gimpy-olivine-clam
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-goldenrod-maltese.sh
-        container: qc.doc_zippy-xanthic-bordeaux
+        - /usr/bin/env sh .sqa/script.slimy-puce-hyena.sh
+        container: qc.doc_chewy-celadon-kakapo
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.sunny-plum-barb.sh
-        container: qc.doc_nippy-malachite-frigatebird
+        - /usr/bin/env sh .sqa/script.slaphappy-sangria-mole.sh
+        container: qc.doc_stealthy-plum-hyena
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-lavender-chameleon.sh
-        container: qc.fair_wiggy-buff-wolf
+        - /usr/bin/env sh .sqa/script.queasy-myrtle-retriever.sh
+        container: qc.fair_gloppy-alizarin-burmese
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-cinnabar-llama.sh
-        container: qc.lic_messy-red-echidna
+        - /usr/bin/env sh .sqa/script.muzzy-auburn-macaque.sh
+        container: qc.lic_beady-flax-quoll
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.whiny-chocolate-baboon.sh
-        container: qc.ver_queasy-azure-cougar
+        - /usr/bin/env sh .sqa/script.silly-chocolate-discus.sh
+        container: qc.ver_tacky-azure-stoat
 timeout: 1800
