@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-alizarin-indri.sh
-        container: qc.acc_whiny-rose-gibbon
+        - /usr/bin/env sh .sqa/script.flimsy-magnolia-capybara.sh
+        container: qc.acc_tacky-chocolate-orangutan
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-mustard-jaguar.sh
-        container: qc.doc_hasty-dandelion-ladybird
+        - /usr/bin/env sh .sqa/script.slimy-aqua-husky.sh
+        container: qc.doc_chewy-cornflower-harrier
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-brass-dormouse.sh
-        container: qc.doc_boozy-denim-quoll
+        - /usr/bin/env sh .sqa/script.snappy-pink-schnauzer.sh
+        container: qc.doc_blurry-razzmatazz-moose
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-saffron-mandrill.sh
-        container: qc.doc_skimpy-brass-owl
+        - /usr/bin/env sh .sqa/script.skimpy-mauve-corgi.sh
+        container: qc.doc_crabby-ivory-olm
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.clammy-wisteria-panda.sh
-        container: qc.fair_chummy-copper-newt
+        - /usr/bin/env sh .sqa/script.boozy-silver-greyhound.sh
+        container: qc.fair_dorky-russet-dunker
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-olivine-akbash.sh
-        container: qc.lic_sleazy-apricot-dachsbracke
+        - /usr/bin/env sh .sqa/script.shaky-auburn-ostrich.sh
+        container: qc.lic_gimpy-zucchini-magpie
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.breezy-amber-cattle.sh
-        container: qc.ver_shabby-plum-ragdoll
+        - /usr/bin/env sh .sqa/script.stinky-cerise-mastiff.sh
+        container: qc.ver_cozy-denim-corgi
 timeout: 1800
