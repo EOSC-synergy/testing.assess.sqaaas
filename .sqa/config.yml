@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.flimsy-magnolia-capybara.sh
-        container: qc.acc_tacky-chocolate-orangutan
+        - /usr/bin/env sh .sqa/script.ugly-charcoal-bombay.sh
+        container: qc.acc_trippy-dandelion-vole
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-aqua-husky.sh
-        container: qc.doc_chewy-cornflower-harrier
+        - /usr/bin/env sh .sqa/script.cloudy-corn-cow.sh
+        container: qc.doc_goopy-gold-serval
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-pink-schnauzer.sh
-        container: qc.doc_blurry-razzmatazz-moose
+        - /usr/bin/env sh .sqa/script.crappy-rose-balinese.sh
+        container: qc.doc_squirrely-zucchini-duck
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-mauve-corgi.sh
-        container: qc.doc_crabby-ivory-olm
+        - /usr/bin/env sh .sqa/script.skimpy-chocolate-peccary.sh
+        container: qc.doc_bumpy-zucchini-retriever
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-silver-greyhound.sh
-        container: qc.fair_dorky-russet-dunker
+        - /usr/bin/env sh .sqa/script.trippy-beige-panda.sh
+        container: qc.fair_chewy-thistle-owl
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-auburn-ostrich.sh
-        container: qc.lic_gimpy-zucchini-magpie
+        - /usr/bin/env sh .sqa/script.cheeky-olive-cuscus.sh
+        container: qc.lic_foggy-tomato-frise
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.stinky-cerise-mastiff.sh
-        container: qc.ver_cozy-denim-corgi
+        - /usr/bin/env sh .sqa/script.randy-aqua-reindeer.sh
+        container: qc.ver_wheezy-maroon-peccary
 timeout: 1800
