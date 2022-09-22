@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.jumpy-chartreuse-bongo.sh
-        container: qc.acc_sleazy-gold-pinscher
+        - /usr/bin/env sh .sqa/script.woozy-dandelion-buzzard.sh
+        container: qc.acc_gamy-ivory-foxhound
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-orchid-iguana.sh
-        container: qc.doc_flabby-black-bobcat
+        - /usr/bin/env sh .sqa/script.goopy-lavender-civet.sh
+        container: qc.doc_lumpy-amaranth-coyote
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.bluesy-apricot-bee.sh
-        container: qc.doc_lanky-tomato-emu
+        - /usr/bin/env sh .sqa/script.woolly-copper-crab.sh
+        container: qc.doc_sleepy-cerise-caracal
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-silver-spoonbill.sh
-        container: qc.doc_frumpy-beige-terrier
+        - /usr/bin/env sh .sqa/script.foggy-magnolia-raccoon.sh
+        container: qc.doc_randy-red-affenpinscher
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-gold-discus.sh
-        container: qc.fair_wimpy-asparagus-labradoodle
+        - /usr/bin/env sh .sqa/script.tacky-pumpkin-alligator.sh
+        container: qc.fair_freaky-burgundy-dragonfly
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-bistre-alligator.sh
-        container: qc.lic_lanky-saffron-blue
+        - /usr/bin/env sh .sqa/script.seedy-asparagus-albatross.sh
+        container: qc.lic_shaky-celadon-gar
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-lime-wallaby.sh
-        container: qc.ver_smelly-celadon-balinese
+        - /usr/bin/env sh .sqa/script.stealthy-cyan-coral.sh
+        container: qc.ver_baggy-sangria-dog
 timeout: 1800
