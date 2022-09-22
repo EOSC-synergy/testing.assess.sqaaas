@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-cerulean-grasshopper.sh
-        container: qc.acc_foggy-aquamarine-sponge
+        - /usr/bin/env sh .sqa/script.shaky-tan-collie.sh
+        container: qc.acc_snazzy-cobalt-akbash
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-aqua-squirt.sh
-        container: qc.doc_sleazy-orange-buzzard
+        - /usr/bin/env sh .sqa/script.lanky-ochre-coati.sh
+        container: qc.doc_crabby-blue-dogfish
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-fuchsia-tiger.sh
-        container: qc.doc_crabby-smalt-anteater
+        - /usr/bin/env sh .sqa/script.smelly-blue-mole.sh
+        container: qc.doc_stinky-flax-monster
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-green-armadillo.sh
-        container: qc.doc_sleepy-champagne-peccary
+        - /usr/bin/env sh .sqa/script.slimy-copper-reindeer.sh
+        container: qc.doc_muggy-bronze-cockroach
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-fuchsia-avocet.sh
-        container: qc.fair_shaggy-flax-dogfish
+        - /usr/bin/env sh .sqa/script.flaky-cyan-hornet.sh
+        container: qc.fair_foggy-aqua-horse
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.bluesy-emerald-peccary.sh
-        container: qc.lic_hilly-pink-giraffe
+        - /usr/bin/env sh .sqa/script.craggy-cerulean-kakapo.sh
+        container: qc.lic_stuffy-charcoal-mongrel
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-yellow-zebu.sh
-        container: qc.ver_skanky-pink-skunk
+        - /usr/bin/env sh .sqa/script.sloppy-mustard-burmese.sh
+        container: qc.ver_lumpy-sangria-mayfly
 timeout: 1800
