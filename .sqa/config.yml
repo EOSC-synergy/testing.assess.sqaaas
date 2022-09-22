@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-chestnut-molly.sh
-        container: qc.acc_cloudy-ivory-snake
+        - /usr/bin/env sh .sqa/script.jumpy-chartreuse-bongo.sh
+        container: qc.acc_sleazy-gold-pinscher
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-amaranth-monkey.sh
-        container: qc.doc_zippy-mauve-coyote
+        - /usr/bin/env sh .sqa/script.snappy-orchid-iguana.sh
+        container: qc.doc_flabby-black-bobcat
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-vermilion-boar.sh
-        container: qc.doc_gamy-bronze-guppy
+        - /usr/bin/env sh .sqa/script.bluesy-apricot-bee.sh
+        container: qc.doc_lanky-tomato-emu
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-silver-hummingbird.sh
-        container: qc.doc_whiny-carmine-drever
+        - /usr/bin/env sh .sqa/script.tasty-silver-spoonbill.sh
+        container: qc.doc_frumpy-beige-terrier
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.squeaky-pumpkin-coral.sh
-        container: qc.fair_hasty-sepia-owl
+        - /usr/bin/env sh .sqa/script.snippy-gold-discus.sh
+        container: qc.fair_wimpy-asparagus-labradoodle
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-burgundy-havanese.sh
-        container: qc.lic_boozy-grey-tuatara
+        - /usr/bin/env sh .sqa/script.scummy-bistre-alligator.sh
+        container: qc.lic_lanky-saffron-blue
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-bronze-zonkey.sh
-        container: qc.ver_lanky-persimmon-grasshopper
+        - /usr/bin/env sh .sqa/script.pasty-lime-wallaby.sh
+        container: qc.ver_smelly-celadon-balinese
 timeout: 1800
