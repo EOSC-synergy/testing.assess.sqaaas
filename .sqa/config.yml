@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-charcoal-bombay.sh
-        container: qc.acc_trippy-dandelion-vole
+        - /usr/bin/env sh .sqa/script.tasty-cerulean-grasshopper.sh
+        container: qc.acc_foggy-aquamarine-sponge
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-corn-cow.sh
-        container: qc.doc_goopy-gold-serval
+        - /usr/bin/env sh .sqa/script.bumpy-aqua-squirt.sh
+        container: qc.doc_sleazy-orange-buzzard
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.crappy-rose-balinese.sh
-        container: qc.doc_squirrely-zucchini-duck
+        - /usr/bin/env sh .sqa/script.muggy-fuchsia-tiger.sh
+        container: qc.doc_crabby-smalt-anteater
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-chocolate-peccary.sh
-        container: qc.doc_bumpy-zucchini-retriever
+        - /usr/bin/env sh .sqa/script.paltry-green-armadillo.sh
+        container: qc.doc_sleepy-champagne-peccary
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.trippy-beige-panda.sh
-        container: qc.fair_chewy-thistle-owl
+        - /usr/bin/env sh .sqa/script.queasy-fuchsia-avocet.sh
+        container: qc.fair_shaggy-flax-dogfish
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-olive-cuscus.sh
-        container: qc.lic_foggy-tomato-frise
+        - /usr/bin/env sh .sqa/script.bluesy-emerald-peccary.sh
+        container: qc.lic_hilly-pink-giraffe
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-aqua-reindeer.sh
-        container: qc.ver_wheezy-maroon-peccary
+        - /usr/bin/env sh .sqa/script.paltry-yellow-zebu.sh
+        container: qc.ver_skanky-pink-skunk
 timeout: 1800
