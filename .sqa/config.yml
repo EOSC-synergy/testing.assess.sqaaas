@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-dandelion-buzzard.sh
-        container: qc.acc_gamy-ivory-foxhound
+        - /usr/bin/env sh .sqa/script.chewy-magenta-sponge.sh
+        container: qc.acc_stealthy-corn-monkey
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-lavender-civet.sh
-        container: qc.doc_lumpy-amaranth-coyote
+        - /usr/bin/env sh .sqa/script.cheeky-amber-gharial.sh
+        container: qc.doc_boozy-chestnut-olm
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-copper-crab.sh
-        container: qc.doc_sleepy-cerise-caracal
+        - /usr/bin/env sh .sqa/script.snippy-xanthic-turtle.sh
+        container: qc.doc_ready-bistre-bracke
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-magnolia-raccoon.sh
-        container: qc.doc_randy-red-affenpinscher
+        - /usr/bin/env sh .sqa/script.dorky-razzmatazz-newfoundland.sh
+        container: qc.doc_seedy-tomato-buzzard
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-pumpkin-alligator.sh
-        container: qc.fair_freaky-burgundy-dragonfly
+        - /usr/bin/env sh .sqa/script.hazy-pear-wolf.sh
+        container: qc.fair_frumpy-thistle-shrew
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-asparagus-albatross.sh
-        container: qc.lic_shaky-celadon-gar
+        - /usr/bin/env sh .sqa/script.nerdy-flax-horse.sh
+        container: qc.lic_squeaky-chartreuse-dhole
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-cyan-coral.sh
-        container: qc.ver_baggy-sangria-dog
+        - /usr/bin/env sh .sqa/script.pretty-peach-ant.sh
+        container: qc.ver_blurry-eggplant-mouse
 timeout: 1800
