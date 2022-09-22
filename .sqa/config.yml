@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-tan-collie.sh
-        container: qc.acc_snazzy-cobalt-akbash
+        - /usr/bin/env sh .sqa/script.stealthy-pink-barb.sh
+        container: qc.acc_gloppy-cinnamon-wallaby
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-ochre-coati.sh
-        container: qc.doc_crabby-blue-dogfish
+        - /usr/bin/env sh .sqa/script.crabby-black-quoll.sh
+        container: qc.doc_wheezy-bronze-oyster
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-blue-mole.sh
-        container: qc.doc_stinky-flax-monster
+        - /usr/bin/env sh .sqa/script.nerdy-ecru-fossa.sh
+        container: qc.doc_stealthy-amber-opossum
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-copper-reindeer.sh
-        container: qc.doc_muggy-bronze-cockroach
+        - /usr/bin/env sh .sqa/script.pasty-salmon-snake.sh
+        container: qc.doc_snazzy-gold-lion
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-cyan-hornet.sh
-        container: qc.fair_foggy-aqua-horse
+        - /usr/bin/env sh .sqa/script.slimy-ecru-sparrow.sh
+        container: qc.fair_boozy-firebrick-tetra
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-cerulean-kakapo.sh
-        container: qc.lic_stuffy-charcoal-mongrel
+        - /usr/bin/env sh .sqa/script.cheeky-taupe-squirt.sh
+        container: qc.lic_wimpy-copper-lizard
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-mustard-burmese.sh
-        container: qc.ver_lumpy-sangria-mayfly
+        - /usr/bin/env sh .sqa/script.skanky-wisteria-lemur.sh
+        container: qc.ver_stinky-carmine-jaguar
 timeout: 1800
