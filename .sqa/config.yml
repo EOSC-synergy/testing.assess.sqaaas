@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-lavender-crocodile.sh
-        container: qc.acc_freaky-cerise-rat
+        - /usr/bin/env sh .sqa/script.scummy-xanthic-kakapo.sh
+        container: qc.acc_scaly-blue-ibis
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.geeky-heliotrope-schnauzer.sh
-        container: qc.doc_wheezy-aqua-barnacle
+        - /usr/bin/env sh .sqa/script.lumpy-goldenrod-bat.sh
+        container: qc.doc_surly-tangerine-coral
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-salmon-schnauzer.sh
-        container: qc.doc_sloppy-chartreuse-devil
+        - /usr/bin/env sh .sqa/script.snippy-red-bonobo.sh
+        container: qc.doc_boozy-rust-opossum
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-emerald-badger.sh
-        container: qc.doc_pokey-celadon-cat
+        - /usr/bin/env sh .sqa/script.squirrely-magnolia-fish.sh
+        container: qc.doc_pokey-taupe-caterpillar
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-xanthic-goat.sh
-        container: qc.fair_stinky-emerald-spitz
+        - /usr/bin/env sh .sqa/script.snazzy-heliotrope-binturong.sh
+        container: qc.fair_shabby-black-quokka
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-scarlet-affenpinscher.sh
-        container: qc.lic_craggy-sepia-yak
+        - /usr/bin/env sh .sqa/script.whiny-sepia-eleuth.sh
+        container: qc.lic_lumpy-cardinal-frise
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-flax-gerbil.sh
-        container: qc.ver_blurry-eggplant-dachsbracke
+        - /usr/bin/env sh .sqa/script.ready-ivory-kakapo.sh
+        container: qc.ver_muzzy-viridian-magpie
 timeout: 1800
