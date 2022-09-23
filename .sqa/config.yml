@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-magenta-sponge.sh
-        container: qc.acc_stealthy-corn-monkey
+        - /usr/bin/env sh .sqa/script.scanty-lavender-crocodile.sh
+        container: qc.acc_freaky-cerise-rat
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-amber-gharial.sh
-        container: qc.doc_boozy-chestnut-olm
+        - /usr/bin/env sh .sqa/script.geeky-heliotrope-schnauzer.sh
+        container: qc.doc_wheezy-aqua-barnacle
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-xanthic-turtle.sh
-        container: qc.doc_ready-bistre-bracke
+        - /usr/bin/env sh .sqa/script.hasty-salmon-schnauzer.sh
+        container: qc.doc_sloppy-chartreuse-devil
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-razzmatazz-newfoundland.sh
-        container: qc.doc_seedy-tomato-buzzard
+        - /usr/bin/env sh .sqa/script.sloppy-emerald-badger.sh
+        container: qc.doc_pokey-celadon-cat
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-pear-wolf.sh
-        container: qc.fair_frumpy-thistle-shrew
+        - /usr/bin/env sh .sqa/script.gamy-xanthic-goat.sh
+        container: qc.fair_stinky-emerald-spitz
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.nerdy-flax-horse.sh
-        container: qc.lic_squeaky-chartreuse-dhole
+        - /usr/bin/env sh .sqa/script.bumpy-scarlet-affenpinscher.sh
+        container: qc.lic_craggy-sepia-yak
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-peach-ant.sh
-        container: qc.ver_blurry-eggplant-mouse
+        - /usr/bin/env sh .sqa/script.chewy-flax-gerbil.sh
+        container: qc.ver_blurry-eggplant-dachsbracke
 timeout: 1800
