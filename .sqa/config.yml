@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-xanthic-kakapo.sh
-        container: qc.acc_scaly-blue-ibis
+        - /usr/bin/env sh .sqa/script.nippy-cream-armadillo.sh
+        container: qc.acc_lousy-bistre-russel
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-goldenrod-bat.sh
-        container: qc.doc_surly-tangerine-coral
+        - /usr/bin/env sh .sqa/script.seedy-puce-mist.sh
+        container: qc.doc_scummy-dandelion-loon
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-red-bonobo.sh
-        container: qc.doc_boozy-rust-opossum
+        - /usr/bin/env sh .sqa/script.homely-smalt-mammoth.sh
+        container: qc.doc_cloudy-beige-dogfish
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-magnolia-fish.sh
-        container: qc.doc_pokey-taupe-caterpillar
+        - /usr/bin/env sh .sqa/script.snazzy-amber-caterpillar.sh
+        container: qc.doc_scaly-platinum-angora
   QC.FAIR:
     repos:
       github.com/darce-i3m/testing F-UJI:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-heliotrope-binturong.sh
-        container: qc.fair_shabby-black-quokka
+        - /usr/bin/env sh .sqa/script.foggy-lilac-cuscus.sh
+        container: qc.fair_homely-coral-zebra
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.whiny-sepia-eleuth.sh
-        container: qc.lic_lumpy-cardinal-frise
+        - /usr/bin/env sh .sqa/script.frumpy-brown-hamster.sh
+        container: qc.lic_tasty-chestnut-cow
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-ivory-kakapo.sh
-        container: qc.ver_muzzy-viridian-magpie
+        - /usr/bin/env sh .sqa/script.sloppy-platinum-forest.sh
+        container: qc.ver_ready-indigo-ibis
 timeout: 1800
