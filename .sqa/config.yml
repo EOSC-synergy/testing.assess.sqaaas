@@ -15,38 +15,32 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.nippy-cream-armadillo.sh
-        container: qc.acc_lousy-bistre-russel
+        - /usr/bin/env sh .sqa/script.seedy-cream-lemur.sh
+        container: qc.acc_ready-ultramarine-dragonfly
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-puce-mist.sh
-        container: qc.doc_scummy-dandelion-loon
+        - /usr/bin/env sh .sqa/script.foggy-ultramarine-crocodile.sh
+        container: qc.doc_sleepy-ochre-moth
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-smalt-mammoth.sh
-        container: qc.doc_cloudy-beige-dogfish
+        - /usr/bin/env sh .sqa/script.squirrely-mauve-weasel.sh
+        container: qc.doc_sleazy-auburn-seal
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-amber-caterpillar.sh
-        container: qc.doc_scaly-platinum-angora
-  QC.FAIR:
-    repos:
-      github.com/darce-i3m/testing F-UJI:
-        commands:
-        - /usr/bin/env sh .sqa/script.foggy-lilac-cuscus.sh
-        container: qc.fair_homely-coral-zebra
+        - /usr/bin/env sh .sqa/script.muzzy-olivine-anteater.sh
+        container: qc.doc_wimpy-ruby-audemer
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.frumpy-brown-hamster.sh
-        container: qc.lic_tasty-chestnut-cow
+        - /usr/bin/env sh .sqa/script.lumpy-champagne-dane.sh
+        container: qc.lic_hilly-indigo-echidna
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-platinum-forest.sh
-        container: qc.ver_ready-indigo-ibis
+        - /usr/bin/env sh .sqa/script.greasy-coral-buzzard.sh
+        container: qc.ver_crappy-azure-jaguar
 timeout: 1800
