@@ -15,32 +15,32 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-beige-giraffe.sh
-        container: qc.acc_ready-chartreuse-barb
+        - /usr/bin/env sh .sqa/script.geeky-puce-chinchilla.sh
+        container: qc.acc_bluesy-myrtle-stingray
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-black-tiger.sh
-        container: qc.doc_sleazy-scarlet-frise
+        - /usr/bin/env sh .sqa/script.slimy-ruby-dingo.sh
+        container: qc.doc_queasy-denim-bear
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-buff-barb.sh
-        container: qc.doc_tasty-red-flounder
+        - /usr/bin/env sh .sqa/script.dorky-firebrick-akbash.sh
+        container: qc.doc_seedy-buff-javanese
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.muzzy-sapphire-sheep.sh
-        container: qc.doc_grumpy-plum-bear
+        - /usr/bin/env sh .sqa/script.scaly-ruby-moorhen.sh
+        container: qc.doc_craggy-heliotrope-tarsier
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.crappy-indigo-swan.sh
-        container: qc.lic_snappy-zucchini-oyster
+        - /usr/bin/env sh .sqa/script.droopy-chestnut-flamingo.sh
+        container: qc.lic_boozy-copper-mongoose
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-bistre-devil.sh
-        container: qc.ver_beady-goldenrod-husky
+        - /usr/bin/env sh .sqa/script.flaky-magenta-sponge.sh
+        container: qc.ver_baggy-yellow-wildebeest
 timeout: 1800
