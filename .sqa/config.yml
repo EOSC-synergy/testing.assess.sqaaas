@@ -15,32 +15,32 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-denim-squid.sh
-        container: qc.acc_nippy-puce-rottweiler
+        - /usr/bin/env sh .sqa/script.shaggy-beige-giraffe.sh
+        container: qc.acc_ready-chartreuse-barb
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gimpy-magenta-balinese.sh
-        container: qc.doc_hilly-myrtle-vole
+        - /usr/bin/env sh .sqa/script.sloppy-black-tiger.sh
+        container: qc.doc_sleazy-scarlet-frise
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-taupe-rottweiler.sh
-        container: qc.doc_bumpy-seashell-cichlid
+        - /usr/bin/env sh .sqa/script.ready-buff-barb.sh
+        container: qc.doc_tasty-red-flounder
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-alizarin-badger.sh
-        container: qc.doc_chewy-cinnamon-hare
+        - /usr/bin/env sh .sqa/script.muzzy-sapphire-sheep.sh
+        container: qc.doc_grumpy-plum-bear
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-myrtle-paradise.sh
-        container: qc.lic_seedy-puce-chipmunk
+        - /usr/bin/env sh .sqa/script.crappy-indigo-swan.sh
+        container: qc.lic_snappy-zucchini-oyster
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-apricot-capybara.sh
-        container: qc.ver_lousy-ivory-numbat
+        - /usr/bin/env sh .sqa/script.bumpy-bistre-devil.sh
+        container: qc.ver_beady-goldenrod-husky
 timeout: 1800
