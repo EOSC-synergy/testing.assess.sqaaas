@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-coral-deer.sh
-        container: qc.acc_bluesy-razzmatazz-bongo
+        - /usr/bin/env sh .sqa/script.ready-cyan-dane.sh
+        container: qc.acc_freaky-amber-audemer
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-lilac-butterfly.sh
-        container: qc.doc_greasy-carmine-oriole
+        - /usr/bin/env sh .sqa/script.scaly-olivine-woodlouse.sh
+        container: qc.doc_bluesy-gold-sheep
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.frumpy-goldenrod-uakari.sh
-        container: qc.doc_snappy-linen-dolphin
+        - /usr/bin/env sh .sqa/script.pretty-scarlet-jackal.sh
+        container: qc.doc_fuzzy-persimmon-saola
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-ecru-camel.sh
-        container: qc.doc_sleazy-alizarin-squirrel
+        - /usr/bin/env sh .sqa/script.woolly-blue-paradise.sh
+        container: qc.doc_snappy-vermilion-meerkat
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-vermilion-caterpillar.sh
-        container: qc.lic_wiggy-periwinkle-dragon
+        - /usr/bin/env sh .sqa/script.cranky-razzmatazz-tang.sh
+        container: qc.lic_cranky-silver-dhole
   QC.Sty:
     repos:
       github.com/darce-i3m/testing stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.breezy-persimmon-burmese.sh
-        container: qc.sty_slimy-olive-cow
+        - /usr/bin/env sh .sqa/script.clammy-brown-baboon.sh
+        container: qc.sty_frumpy-sapphire-rabbit
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-sangria-mau.sh
-        container: qc.ver_stealthy-mauve-tetra
+        - /usr/bin/env sh .sqa/script.squeaky-buff-bonobo.sh
+        container: qc.ver_hasty-purple-bulldog
 timeout: 5400
