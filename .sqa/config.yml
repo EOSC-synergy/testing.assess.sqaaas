@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-cyan-dane.sh
-        container: qc.acc_freaky-amber-audemer
+        - /usr/bin/env sh .sqa/script.foggy-linen-bulldog.sh
+        container: qc.acc_breezy-wheat-spitz
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-olivine-woodlouse.sh
-        container: qc.doc_bluesy-gold-sheep
+        - /usr/bin/env sh .sqa/script.sunny-ultramarine-tarsier.sh
+        container: qc.doc_slaphappy-champagne-chihuahua
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-scarlet-jackal.sh
-        container: qc.doc_fuzzy-persimmon-saola
+        - /usr/bin/env sh .sqa/script.dorky-tangerine-warthog.sh
+        container: qc.doc_messy-zucchini-armadillo
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-blue-paradise.sh
-        container: qc.doc_snappy-vermilion-meerkat
+        - /usr/bin/env sh .sqa/script.slaphappy-seashell-dhole.sh
+        container: qc.doc_squeaky-cerulean-manatee
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.cranky-razzmatazz-tang.sh
-        container: qc.lic_cranky-silver-dhole
+        - /usr/bin/env sh .sqa/script.squeaky-harlequin-mule.sh
+        container: qc.lic_clammy-black-akita
   QC.Sty:
     repos:
       github.com/darce-i3m/testing stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.clammy-brown-baboon.sh
-        container: qc.sty_frumpy-sapphire-rabbit
+        - /usr/bin/env sh .sqa/script.geeky-lime-ferret.sh
+        container: qc.sty_ready-viridian-labradoodle
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.squeaky-buff-bonobo.sh
-        container: qc.ver_hasty-purple-bulldog
+        - /usr/bin/env sh .sqa/script.freaky-amber-wombat.sh
+        container: qc.ver_ready-ivory-sloth
 timeout: 5400
