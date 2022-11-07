@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/1.7.0
+      branch: release/1.7.5
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/darce-i3m/testing:
       branch: main
@@ -15,32 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.geeky-puce-chinchilla.sh
-        container: qc.acc_bluesy-myrtle-stingray
+        - /usr/bin/env sh .sqa/script.leaky-coral-deer.sh
+        container: qc.acc_bluesy-razzmatazz-bongo
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-ruby-dingo.sh
-        container: qc.doc_queasy-denim-bear
+        - /usr/bin/env sh .sqa/script.lousy-lilac-butterfly.sh
+        container: qc.doc_greasy-carmine-oriole
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-firebrick-akbash.sh
-        container: qc.doc_seedy-buff-javanese
+        - /usr/bin/env sh .sqa/script.frumpy-goldenrod-uakari.sh
+        container: qc.doc_snappy-linen-dolphin
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-ruby-moorhen.sh
-        container: qc.doc_craggy-heliotrope-tarsier
+        - /usr/bin/env sh .sqa/script.cozy-ecru-camel.sh
+        container: qc.doc_sleazy-alizarin-squirrel
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-chestnut-flamingo.sh
-        container: qc.lic_boozy-copper-mongoose
+        - /usr/bin/env sh .sqa/script.chewy-vermilion-caterpillar.sh
+        container: qc.lic_wiggy-periwinkle-dragon
+  QC.Sty:
+    repos:
+      github.com/darce-i3m/testing stylelint:
+        commands:
+        - /usr/bin/env sh .sqa/script.breezy-persimmon-burmese.sh
+        container: qc.sty_slimy-olive-cow
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-magenta-sponge.sh
-        container: qc.ver_baggy-yellow-wildebeest
-timeout: 1800
+        - /usr/bin/env sh .sqa/script.wimpy-sangria-mau.sh
+        container: qc.ver_stealthy-mauve-tetra
+timeout: 5400
