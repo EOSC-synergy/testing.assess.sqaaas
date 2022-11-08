@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-linen-bulldog.sh
-        container: qc.acc_breezy-wheat-spitz
+        - /usr/bin/env sh .sqa/script.sickly-pear-tiger.sh
+        container: qc.acc_randy-lavender-russel
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sunny-ultramarine-tarsier.sh
-        container: qc.doc_slaphappy-champagne-chihuahua
+        - /usr/bin/env sh .sqa/script.pretty-indigo-shrimp.sh
+        container: qc.doc_surly-lilac-jellyfish
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-tangerine-warthog.sh
-        container: qc.doc_messy-zucchini-armadillo
+        - /usr/bin/env sh .sqa/script.scaly-orange-sponge.sh
+        container: qc.doc_flimsy-wisteria-coyote
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-seashell-dhole.sh
-        container: qc.doc_squeaky-cerulean-manatee
+        - /usr/bin/env sh .sqa/script.bumpy-champagne-retriever.sh
+        container: qc.doc_sleepy-saffron-gharial
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.squeaky-harlequin-mule.sh
-        container: qc.lic_clammy-black-akita
+        - /usr/bin/env sh .sqa/script.randy-black-ant.sh
+        container: qc.lic_tacky-tangerine-cougar
   QC.Sty:
     repos:
       github.com/darce-i3m/testing stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.geeky-lime-ferret.sh
-        container: qc.sty_ready-viridian-labradoodle
+        - /usr/bin/env sh .sqa/script.snippy-gold-ibis.sh
+        container: qc.sty_skanky-orange-snake
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.freaky-amber-wombat.sh
-        container: qc.ver_ready-ivory-sloth
+        - /usr/bin/env sh .sqa/script.skimpy-buff-horse.sh
+        container: qc.ver_flimsy-mauve-tiger
 timeout: 5400
