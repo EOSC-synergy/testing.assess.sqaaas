@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-chartreuse-reindeer.sh
-        container: qc.acc_seedy-viridian-hamster
+        - /usr/bin/env sh .sqa/script.chewy-taupe-octopus.sh
+        container: qc.acc_wheezy-eggplant-dogfish
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-beige-rottweiler.sh
-        container: qc.doc_snoopy-tan-chicken
+        - /usr/bin/env sh .sqa/script.seedy-malachite-devil.sh
+        container: qc.doc_chewy-cornflower-sponge
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-ecru-buffalo.sh
-        container: qc.doc_leaky-ivory-insect
+        - /usr/bin/env sh .sqa/script.messy-buff-hummingbird.sh
+        container: qc.doc_clammy-silver-dane
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-zucchini-leopard.sh
-        container: qc.doc_woolly-cerulean-impala
+        - /usr/bin/env sh .sqa/script.lousy-jade-mule.sh
+        container: qc.doc_shaggy-lemon-woodlouse
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-bistre-gerbil.sh
-        container: qc.lic_scanty-brass-shark
+        - /usr/bin/env sh .sqa/script.sleazy-ochre-caterpillar.sh
+        container: qc.lic_hazy-mauve-dachshund
   QC.Sty:
     repos:
       github.com/darce-i3m/testing stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.trippy-bronze-flounder.sh
-        container: qc.sty_thirsty-seashell-mule
+        - /usr/bin/env sh .sqa/script.squeaky-ruby-bird.sh
+        container: qc.sty_hilly-celadon-olm
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-peach-dingo.sh
-        container: qc.ver_snippy-malachite-fox
+        - /usr/bin/env sh .sqa/script.leaky-chocolate-goose.sh
+        container: qc.ver_scaly-firebrick-quetzal
 timeout: 5400
