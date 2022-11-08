@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-pear-tiger.sh
-        container: qc.acc_randy-lavender-russel
+        - /usr/bin/env sh .sqa/script.chewy-chartreuse-reindeer.sh
+        container: qc.acc_seedy-viridian-hamster
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-indigo-shrimp.sh
-        container: qc.doc_surly-lilac-jellyfish
+        - /usr/bin/env sh .sqa/script.smelly-beige-rottweiler.sh
+        container: qc.doc_snoopy-tan-chicken
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-orange-sponge.sh
-        container: qc.doc_flimsy-wisteria-coyote
+        - /usr/bin/env sh .sqa/script.paltry-ecru-buffalo.sh
+        container: qc.doc_leaky-ivory-insect
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-champagne-retriever.sh
-        container: qc.doc_sleepy-saffron-gharial
+        - /usr/bin/env sh .sqa/script.slaphappy-zucchini-leopard.sh
+        container: qc.doc_woolly-cerulean-impala
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-black-ant.sh
-        container: qc.lic_tacky-tangerine-cougar
+        - /usr/bin/env sh .sqa/script.lovely-bistre-gerbil.sh
+        container: qc.lic_scanty-brass-shark
   QC.Sty:
     repos:
       github.com/darce-i3m/testing stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-gold-ibis.sh
-        container: qc.sty_skanky-orange-snake
+        - /usr/bin/env sh .sqa/script.trippy-bronze-flounder.sh
+        container: qc.sty_thirsty-seashell-mule
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-buff-horse.sh
-        container: qc.ver_flimsy-mauve-tiger
+        - /usr/bin/env sh .sqa/script.surly-peach-dingo.sh
+        container: qc.ver_snippy-malachite-fox
 timeout: 5400
