@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-maroon-ocelot.sh
-        container: qc.acc_queasy-rose-ray
+        - /usr/bin/env sh .sqa/script.muggy-goldenrod-russel.sh
+        container: qc.acc_cheeky-denim-javanese
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-ivory-echidna.sh
-        container: qc.doc_ready-carmine-bobcat
+        - /usr/bin/env sh .sqa/script.chummy-saffron-monster.sh
+        container: qc.doc_sleazy-celadon-macaw
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-buff-koala.sh
-        container: qc.doc_chewy-pear-albatross
+        - /usr/bin/env sh .sqa/script.pasty-dandelion-labradoodle.sh
+        container: qc.doc_sleepy-khaki-orangutan
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-xanthic-catfish.sh
-        container: qc.doc_woolly-auburn-akbash
+        - /usr/bin/env sh .sqa/script.hasty-cerulean-gharial.sh
+        container: qc.doc_scaly-harlequin-vulture
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-cream-skunk.sh
-        container: qc.lic_bluesy-chestnut-okapi
+        - /usr/bin/env sh .sqa/script.breezy-cardinal-stoat.sh
+        container: qc.lic_tacky-emerald-badger
   QC.Sty:
     repos:
       github.com/darce-i3m/testing stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-blue-starfish.sh
-        container: qc.sty_wimpy-silver-squirrel
+        - /usr/bin/env sh .sqa/script.tasty-tomato-hummingbird.sh
+        container: qc.sty_foggy-amber-bee
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-carmine-whale.sh
-        container: qc.ver_lumpy-fuchsia-squid
+        - /usr/bin/env sh .sqa/script.nippy-white-elephant.sh
+        container: qc.ver_crappy-ecru-frog
 timeout: 5400
