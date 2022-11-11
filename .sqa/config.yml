@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.trippy-denim-javanese.sh
-        container: qc.acc_stealthy-magenta-dhole
+        - /usr/bin/env sh .sqa/script.stealthy-maroon-ocelot.sh
+        container: qc.acc_queasy-rose-ray
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-tomato-orangutan.sh
-        container: qc.doc_flaky-lilac-mouse
+        - /usr/bin/env sh .sqa/script.squirrely-ivory-echidna.sh
+        container: qc.doc_ready-carmine-bobcat
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.nippy-lavender-dalmatian.sh
-        container: qc.doc_smelly-lemon-tamarin
+        - /usr/bin/env sh .sqa/script.snazzy-buff-koala.sh
+        container: qc.doc_chewy-pear-albatross
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.frumpy-bistre-quoll.sh
-        container: qc.doc_nippy-coral-dalmatian
+        - /usr/bin/env sh .sqa/script.pretty-xanthic-catfish.sh
+        container: qc.doc_woolly-auburn-akbash
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-heliotrope-catfish.sh
-        container: qc.lic_messy-cerulean-heron
+        - /usr/bin/env sh .sqa/script.skanky-cream-skunk.sh
+        container: qc.lic_bluesy-chestnut-okapi
   QC.Sty:
     repos:
       github.com/darce-i3m/testing stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-myrtle-mastiff.sh
-        container: qc.sty_snazzy-blue-vulture
+        - /usr/bin/env sh .sqa/script.thirsty-blue-starfish.sh
+        container: qc.sty_wimpy-silver-squirrel
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-chartreuse-spitz.sh
-        container: qc.ver_blurry-emerald-bird
+        - /usr/bin/env sh .sqa/script.gummy-carmine-whale.sh
+        container: qc.ver_lumpy-fuchsia-squid
 timeout: 5400
