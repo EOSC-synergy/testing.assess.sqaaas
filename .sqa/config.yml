@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-salmon-chinchilla.sh
-        container: qc.acc_hilly-ochre-lemming
+        - /usr/bin/env sh .sqa/script.woozy-malachite-zebu.sh
+        container: qc.acc_craggy-sapphire-tuatara
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gimpy-cardinal-quoll.sh
-        container: qc.doc_geeky-goldenrod-tortoise
+        - /usr/bin/env sh .sqa/script.slimy-red-kangaroo.sh
+        container: qc.doc_queasy-champagne-mule
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-celadon-grouse.sh
-        container: qc.doc_dorky-lavender-dachshund
+        - /usr/bin/env sh .sqa/script.messy-puce-magpie.sh
+        container: qc.doc_tasty-vermilion-moorhen
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-chartreuse-opossum.sh
-        container: qc.doc_queasy-cornflower-eel
+        - /usr/bin/env sh .sqa/script.skinny-scarlet-quoll.sh
+        container: qc.doc_sleazy-zucchini-whippet
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-gold-markhor.sh
-        container: qc.lic_squeaky-peach-lizard
+        - /usr/bin/env sh .sqa/script.paltry-gold-llama.sh
+        container: qc.lic_lovely-khaki-newfoundland
   QC.Sty:
     repos:
       github.com/darce-i3m/testing stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-apricot-quokka.sh
-        container: qc.sty_squirrely-auburn-bat
+        - /usr/bin/env sh .sqa/script.chummy-olive-shrew.sh
+        container: qc.sty_skimpy-rust-flamingo
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-plum-indri.sh
-        container: qc.ver_crappy-ruby-tortoise
+        - /usr/bin/env sh .sqa/script.homely-viridian-seahorse.sh
+        container: qc.ver_freaky-purple-lion
 timeout: 5400
