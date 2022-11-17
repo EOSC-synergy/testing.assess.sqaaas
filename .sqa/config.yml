@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/1.7.5
+      branch: release/1.7.6
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/darce-i3m/testing:
       branch: main
@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-malachite-zebu.sh
-        container: qc.acc_craggy-sapphire-tuatara
+        - /usr/bin/env sh .sqa/script.bluesy-bistre-mist.sh
+        container: qc.acc_shaky-lilac-cougar
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-red-kangaroo.sh
-        container: qc.doc_queasy-champagne-mule
+        - /usr/bin/env sh .sqa/script.droopy-mustard-chihuahua.sh
+        container: qc.doc_woozy-black-squid
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-puce-magpie.sh
-        container: qc.doc_tasty-vermilion-moorhen
+        - /usr/bin/env sh .sqa/script.sickly-smalt-newt.sh
+        container: qc.doc_bluesy-violet-dragonfly
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-scarlet-quoll.sh
-        container: qc.doc_sleazy-zucchini-whippet
+        - /usr/bin/env sh .sqa/script.bluesy-wisteria-lemming.sh
+        container: qc.doc_crabby-ultramarine-chihuahua
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-gold-llama.sh
-        container: qc.lic_lovely-khaki-newfoundland
+        - /usr/bin/env sh .sqa/script.slaphappy-mauve-paradise.sh
+        container: qc.lic_whiny-grey-ostrich
   QC.Sty:
     repos:
       github.com/darce-i3m/testing stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-olive-shrew.sh
-        container: qc.sty_skimpy-rust-flamingo
+        - /usr/bin/env sh .sqa/script.beady-myrtle-panda.sh
+        container: qc.sty_shabby-cinnabar-ferret
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-viridian-seahorse.sh
-        container: qc.ver_freaky-purple-lion
-timeout: 5400
+        - /usr/bin/env sh .sqa/script.tacky-gamboge-forest.sh
+        container: qc.ver_cloudy-bronze-jackal
+timeout: 1800
