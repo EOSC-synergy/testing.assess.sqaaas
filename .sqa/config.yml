@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.bluesy-bistre-mist.sh
-        container: qc.acc_shaky-lilac-cougar
+        - /usr/bin/env sh .sqa/script.craggy-smalt-echidna.sh
+        container: qc.acc_stinky-ochre-schnauzer
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-mustard-chihuahua.sh
-        container: qc.doc_woozy-black-squid
+        - /usr/bin/env sh .sqa/script.smelly-plum-chow.sh
+        container: qc.doc_paltry-xanthic-civet
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-smalt-newt.sh
-        container: qc.doc_bluesy-violet-dragonfly
+        - /usr/bin/env sh .sqa/script.cozy-cerulean-gar.sh
+        container: qc.doc_queasy-coral-beetle
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.bluesy-wisteria-lemming.sh
-        container: qc.doc_crabby-ultramarine-chihuahua
+        - /usr/bin/env sh .sqa/script.fuzzy-scarlet-raccoon.sh
+        container: qc.doc_skanky-ivory-starfish
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-mauve-paradise.sh
-        container: qc.lic_whiny-grey-ostrich
+        - /usr/bin/env sh .sqa/script.squeaky-lavender-chimpanzee.sh
+        container: qc.lic_sloppy-bronze-affenpinscher
   QC.Sty:
     repos:
       github.com/darce-i3m/testing stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-myrtle-panda.sh
-        container: qc.sty_shabby-cinnabar-ferret
+        - /usr/bin/env sh .sqa/script.sleazy-cinnabar-caiman.sh
+        container: qc.sty_thirsty-blue-moth
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-gamboge-forest.sh
-        container: qc.ver_cloudy-bronze-jackal
-timeout: 1800
+        - /usr/bin/env sh .sqa/script.sleazy-lime-fly.sh
+        container: qc.ver_tacky-chestnut-caracal
+timeout: 5400
