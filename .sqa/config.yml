@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-ecru-zonkey.sh
-        container: qc.acc_boozy-brass-flounder
+        - /usr/bin/env sh .sqa/script.sleazy-dandelion-discus.sh
+        container: qc.acc_queasy-cerulean-capybara
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-russet-flounder.sh
-        container: qc.doc_cloudy-rose-javanese
+        - /usr/bin/env sh .sqa/script.sickly-red-meerkat.sh
+        container: qc.doc_bumpy-magnolia-sparrow
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-sapphire-shark.sh
-        container: qc.doc_tasty-crimson-chinchilla
+        - /usr/bin/env sh .sqa/script.seedy-tan-cassowary.sh
+        container: qc.doc_randy-black-mau
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.frumpy-magnolia-alligator.sh
-        container: qc.doc_surly-malachite-harrier
+        - /usr/bin/env sh .sqa/script.gummy-sapphire-dolphin.sh
+        container: qc.doc_nippy-champagne-zorse
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-blue-spider.sh
-        container: qc.lic_baggy-olive-dugong
+        - /usr/bin/env sh .sqa/script.chummy-carmine-wolverine.sh
+        container: qc.lic_craggy-bronze-hummingbird
   QC.Sty:
     repos:
       github.com/darce-i3m/testing stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-aquamarine-hound.sh
-        container: qc.sty_stealthy-sepia-skunk
+        - /usr/bin/env sh .sqa/script.hazy-wheat-ferret.sh
+        container: qc.sty_skimpy-champagne-russel
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-champagne-barb.sh
-        container: qc.ver_skimpy-flax-drever
+        - /usr/bin/env sh .sqa/script.thirsty-cinnamon-molly.sh
+        container: qc.ver_skinny-teal-numbat
 timeout: 5400
