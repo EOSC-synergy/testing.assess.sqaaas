@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-blue-donkey.sh
-        container: qc.acc_muggy-red-akita
+        - /usr/bin/env sh .sqa/script.cranky-orange-caiman.sh
+        container: qc.acc_dorky-grey-albatross
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-pear-neanderthal.sh
-        container: qc.doc_wheezy-amaranth-gibbon
+        - /usr/bin/env sh .sqa/script.chummy-teal-coati.sh
+        container: qc.doc_flimsy-lilac-lion
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-zucchini-axolotl.sh
-        container: qc.doc_craggy-sangria-koala
+        - /usr/bin/env sh .sqa/script.silly-cerulean-wolverine.sh
+        container: qc.doc_chewy-dandelion-ragdoll
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-cerise-giraffe.sh
-        container: qc.doc_greasy-brass-albatross
+        - /usr/bin/env sh .sqa/script.scanty-purple-eel.sh
+        container: qc.doc_tacky-chocolate-emu
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-persimmon-monkey.sh
-        container: qc.lic_baggy-brass-donkey
+        - /usr/bin/env sh .sqa/script.thirsty-tan-reindeer.sh
+        container: qc.lic_lovely-tomato-penguin
   QC.Sty:
     repos:
       github.com/darce-i3m/testing stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.nerdy-turquoise-clam.sh
-        container: qc.sty_scummy-ecru-deer
+        - /usr/bin/env sh .sqa/script.snippy-puce-mouse.sh
+        container: qc.sty_hilly-taupe-markhor
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-chartreuse-husky.sh
-        container: qc.ver_hasty-olivine-koala
+        - /usr/bin/env sh .sqa/script.slaphappy-scarlet-dachsbracke.sh
+        container: qc.ver_goopy-alizarin-eagle
 timeout: 5400
