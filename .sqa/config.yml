@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.nippy-azure-opossum.sh
-        container: qc.acc_slaphappy-chartreuse-millipede
+        - /usr/bin/env sh .sqa/script.craggy-khaki-gopher.sh
+        container: qc.acc_homely-mustard-catfish
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.clammy-firebrick-raccoon.sh
-        container: qc.doc_lanky-emerald-robin
+        - /usr/bin/env sh .sqa/script.sunny-brown-sloth.sh
+        container: qc.doc_whiny-purple-shark
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-mauve-dolphin.sh
-        container: qc.doc_breezy-saffron-loon
+        - /usr/bin/env sh .sqa/script.clammy-black-catfish.sh
+        container: qc.doc_geeky-periwinkle-chihuahua
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.blurry-charcoal-badger.sh
-        container: qc.doc_muzzy-khaki-spoonbill
+        - /usr/bin/env sh .sqa/script.muggy-chartreuse-cougar.sh
+        container: qc.doc_surly-red-bloodhound
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-firebrick-flamingo.sh
-        container: qc.lic_greasy-tomato-akita
+        - /usr/bin/env sh .sqa/script.dorky-purple-coral.sh
+        container: qc.lic_nerdy-grey-hare
   QC.Sty:
     repos:
       github.com/darce-i3m/testing stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-grey-discus.sh
-        container: qc.sty_paltry-asparagus-mayfly
+        - /usr/bin/env sh .sqa/script.baggy-sapphire-camel.sh
+        container: qc.sty_shabby-pumpkin-frog
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-myrtle-ladybird.sh
-        container: qc.ver_whiny-ivory-vulture
+        - /usr/bin/env sh .sqa/script.gamy-chestnut-kudu.sh
+        container: qc.ver_lovely-salmon-owl
 timeout: 5400
