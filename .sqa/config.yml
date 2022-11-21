@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-denim-birman.sh
-        container: qc.acc_craggy-cinnabar-hamster
+        - /usr/bin/env sh .sqa/script.baggy-ecru-zonkey.sh
+        container: qc.acc_boozy-brass-flounder
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-taupe-avocet.sh
-        container: qc.doc_hilly-xanthic-loon
+        - /usr/bin/env sh .sqa/script.gamy-russet-flounder.sh
+        container: qc.doc_cloudy-rose-javanese
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-turquoise-mongoose.sh
-        container: qc.doc_blurry-persimmon-budgerigar
+        - /usr/bin/env sh .sqa/script.cozy-sapphire-shark.sh
+        container: qc.doc_tasty-crimson-chinchilla
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-puce-panda.sh
-        container: qc.doc_randy-goldenrod-opossum
+        - /usr/bin/env sh .sqa/script.frumpy-magnolia-alligator.sh
+        container: qc.doc_surly-malachite-harrier
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-amaranth-angora.sh
-        container: qc.lic_silly-cardinal-tarsier
+        - /usr/bin/env sh .sqa/script.lousy-blue-spider.sh
+        container: qc.lic_baggy-olive-dugong
   QC.Sty:
     repos:
       github.com/darce-i3m/testing stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-cerise-lemming.sh
-        container: qc.sty_hazy-cardinal-bonobo
+        - /usr/bin/env sh .sqa/script.sloppy-aquamarine-hound.sh
+        container: qc.sty_stealthy-sepia-skunk
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-tangerine-quokka.sh
-        container: qc.ver_ugly-bronze-walrus
+        - /usr/bin/env sh .sqa/script.crabby-champagne-barb.sh
+        container: qc.ver_skimpy-flax-drever
 timeout: 5400
