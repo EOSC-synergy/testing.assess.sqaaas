@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-alizarin-coati.sh
-        container: qc.acc_thirsty-cobalt-wombat
+        - /usr/bin/env sh .sqa/script.frumpy-cobalt-dhole.sh
+        container: qc.acc_snazzy-auburn-squirrel
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.fuzzy-heliotrope-barnacle.sh
-        container: qc.doc_skinny-maroon-chicken
+        - /usr/bin/env sh .sqa/script.craggy-wheat-cockroach.sh
+        container: qc.doc_smelly-burgundy-bandicoot
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-indigo-dragon.sh
-        container: qc.doc_gamy-turquoise-dollar
+        - /usr/bin/env sh .sqa/script.sickly-fuchsia-affenpinscher.sh
+        container: qc.doc_smelly-amber-sheepdog
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-khaki-beetle.sh
-        container: qc.doc_skinny-ivory-discus
+        - /usr/bin/env sh .sqa/script.sloppy-violet-jellyfish.sh
+        container: qc.doc_whiny-malachite-vulture
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-orange-mammoth.sh
-        container: qc.lic_skimpy-cinnabar-gopher
+        - /usr/bin/env sh .sqa/script.cozy-linen-devil.sh
+        container: qc.lic_woolly-buff-neanderthal
   QC.Sty:
     repos:
       github.com/darce-i3m/testing stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-brass-tiger.sh
-        container: qc.sty_homey-gold-audemer
+        - /usr/bin/env sh .sqa/script.leaky-magnolia-bongo.sh
+        container: qc.sty_whiny-grey-bat
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.fuzzy-seashell-zonkey.sh
-        container: qc.ver_sickly-indigo-ant
+        - /usr/bin/env sh .sqa/script.lumpy-smalt-monkey.sh
+        container: qc.ver_skinny-brown-reindeer
 timeout: 5400
