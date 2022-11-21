@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.cranky-orange-caiman.sh
-        container: qc.acc_dorky-grey-albatross
+        - /usr/bin/env sh .sqa/script.gamy-alizarin-coati.sh
+        container: qc.acc_thirsty-cobalt-wombat
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-teal-coati.sh
-        container: qc.doc_flimsy-lilac-lion
+        - /usr/bin/env sh .sqa/script.fuzzy-heliotrope-barnacle.sh
+        container: qc.doc_skinny-maroon-chicken
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-cerulean-wolverine.sh
-        container: qc.doc_chewy-dandelion-ragdoll
+        - /usr/bin/env sh .sqa/script.skinny-indigo-dragon.sh
+        container: qc.doc_gamy-turquoise-dollar
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-purple-eel.sh
-        container: qc.doc_tacky-chocolate-emu
+        - /usr/bin/env sh .sqa/script.pokey-khaki-beetle.sh
+        container: qc.doc_skinny-ivory-discus
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-tan-reindeer.sh
-        container: qc.lic_lovely-tomato-penguin
+        - /usr/bin/env sh .sqa/script.snippy-orange-mammoth.sh
+        container: qc.lic_skimpy-cinnabar-gopher
   QC.Sty:
     repos:
       github.com/darce-i3m/testing stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-puce-mouse.sh
-        container: qc.sty_hilly-taupe-markhor
+        - /usr/bin/env sh .sqa/script.sickly-brass-tiger.sh
+        container: qc.sty_homey-gold-audemer
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-scarlet-dachsbracke.sh
-        container: qc.ver_goopy-alizarin-eagle
+        - /usr/bin/env sh .sqa/script.fuzzy-seashell-zonkey.sh
+        container: qc.ver_sickly-indigo-ant
 timeout: 5400
