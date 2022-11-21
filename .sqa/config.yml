@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-indigo-greyhound.sh
-        container: qc.acc_sickly-olive-hyrax
+        - /usr/bin/env sh .sqa/script.stealthy-tomato-bongo.sh
+        container: qc.acc_bluesy-alizarin-cichlid
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-cinnamon-quokka.sh
-        container: qc.doc_messy-cornflower-cuttlefish
+        - /usr/bin/env sh .sqa/script.foggy-bronze-swan.sh
+        container: qc.doc_scanty-pink-drever
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-lilac-wallaby.sh
-        container: qc.doc_sloppy-yellow-tarsier
+        - /usr/bin/env sh .sqa/script.lumpy-ivory-fish.sh
+        container: qc.doc_scanty-rust-tuatara
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-sepia-coati.sh
-        container: qc.doc_zippy-thistle-stingray
+        - /usr/bin/env sh .sqa/script.randy-platinum-tarantula.sh
+        container: qc.doc_chummy-carmine-wolfhound
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-heliotrope-dragonfly.sh
-        container: qc.lic_wheezy-yellow-angelfish
+        - /usr/bin/env sh .sqa/script.hazy-orchid-caracal.sh
+        container: qc.lic_slaphappy-eggplant-kiwi
   QC.Sty:
     repos:
       github.com/darce-i3m/testing stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-sepia-chamois.sh
-        container: qc.sty_nippy-copper-affenpinscher
+        - /usr/bin/env sh .sqa/script.droopy-cobalt-quail.sh
+        container: qc.sty_geeky-champagne-macaw
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-lime-balinese.sh
-        container: qc.ver_homey-saffron-loon
+        - /usr/bin/env sh .sqa/script.homely-pear-manatee.sh
+        container: qc.ver_leaky-platinum-toad
 timeout: 5400
