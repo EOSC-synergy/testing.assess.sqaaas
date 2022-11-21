@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-tomato-bongo.sh
-        container: qc.acc_bluesy-alizarin-cichlid
+        - /usr/bin/env sh .sqa/script.nippy-azure-opossum.sh
+        container: qc.acc_slaphappy-chartreuse-millipede
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-bronze-swan.sh
-        container: qc.doc_scanty-pink-drever
+        - /usr/bin/env sh .sqa/script.clammy-firebrick-raccoon.sh
+        container: qc.doc_lanky-emerald-robin
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-ivory-fish.sh
-        container: qc.doc_scanty-rust-tuatara
+        - /usr/bin/env sh .sqa/script.pokey-mauve-dolphin.sh
+        container: qc.doc_breezy-saffron-loon
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-platinum-tarantula.sh
-        container: qc.doc_chummy-carmine-wolfhound
+        - /usr/bin/env sh .sqa/script.blurry-charcoal-badger.sh
+        container: qc.doc_muzzy-khaki-spoonbill
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-orchid-caracal.sh
-        container: qc.lic_slaphappy-eggplant-kiwi
+        - /usr/bin/env sh .sqa/script.hasty-firebrick-flamingo.sh
+        container: qc.lic_greasy-tomato-akita
   QC.Sty:
     repos:
       github.com/darce-i3m/testing stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-cobalt-quail.sh
-        container: qc.sty_geeky-champagne-macaw
+        - /usr/bin/env sh .sqa/script.zippy-grey-discus.sh
+        container: qc.sty_paltry-asparagus-mayfly
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-pear-manatee.sh
-        container: qc.ver_leaky-platinum-toad
+        - /usr/bin/env sh .sqa/script.messy-myrtle-ladybird.sh
+        container: qc.ver_whiny-ivory-vulture
 timeout: 5400
