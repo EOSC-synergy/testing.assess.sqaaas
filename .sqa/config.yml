@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-khaki-gopher.sh
-        container: qc.acc_homely-mustard-catfish
+        - /usr/bin/env sh .sqa/script.boozy-denim-birman.sh
+        container: qc.acc_craggy-cinnabar-hamster
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sunny-brown-sloth.sh
-        container: qc.doc_whiny-purple-shark
+        - /usr/bin/env sh .sqa/script.pasty-taupe-avocet.sh
+        container: qc.doc_hilly-xanthic-loon
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.clammy-black-catfish.sh
-        container: qc.doc_geeky-periwinkle-chihuahua
+        - /usr/bin/env sh .sqa/script.sleepy-turquoise-mongoose.sh
+        container: qc.doc_blurry-persimmon-budgerigar
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-chartreuse-cougar.sh
-        container: qc.doc_surly-red-bloodhound
+        - /usr/bin/env sh .sqa/script.snazzy-puce-panda.sh
+        container: qc.doc_randy-goldenrod-opossum
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-purple-coral.sh
-        container: qc.lic_nerdy-grey-hare
+        - /usr/bin/env sh .sqa/script.smelly-amaranth-angora.sh
+        container: qc.lic_silly-cardinal-tarsier
   QC.Sty:
     repos:
       github.com/darce-i3m/testing stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-sapphire-camel.sh
-        container: qc.sty_shabby-pumpkin-frog
+        - /usr/bin/env sh .sqa/script.cozy-cerise-lemming.sh
+        container: qc.sty_hazy-cardinal-bonobo
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-chestnut-kudu.sh
-        container: qc.ver_lovely-salmon-owl
+        - /usr/bin/env sh .sqa/script.craggy-tangerine-quokka.sh
+        container: qc.ver_ugly-bronze-walrus
 timeout: 5400
