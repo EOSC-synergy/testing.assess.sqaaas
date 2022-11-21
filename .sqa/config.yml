@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.frumpy-cobalt-dhole.sh
-        container: qc.acc_snazzy-auburn-squirrel
+        - /usr/bin/env sh .sqa/script.shaky-indigo-greyhound.sh
+        container: qc.acc_sickly-olive-hyrax
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-wheat-cockroach.sh
-        container: qc.doc_smelly-burgundy-bandicoot
+        - /usr/bin/env sh .sqa/script.scaly-cinnamon-quokka.sh
+        container: qc.doc_messy-cornflower-cuttlefish
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-fuchsia-affenpinscher.sh
-        container: qc.doc_smelly-amber-sheepdog
+        - /usr/bin/env sh .sqa/script.boozy-lilac-wallaby.sh
+        container: qc.doc_sloppy-yellow-tarsier
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-violet-jellyfish.sh
-        container: qc.doc_whiny-malachite-vulture
+        - /usr/bin/env sh .sqa/script.wimpy-sepia-coati.sh
+        container: qc.doc_zippy-thistle-stingray
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-linen-devil.sh
-        container: qc.lic_woolly-buff-neanderthal
+        - /usr/bin/env sh .sqa/script.zippy-heliotrope-dragonfly.sh
+        container: qc.lic_wheezy-yellow-angelfish
   QC.Sty:
     repos:
       github.com/darce-i3m/testing stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-magnolia-bongo.sh
-        container: qc.sty_whiny-grey-bat
+        - /usr/bin/env sh .sqa/script.lanky-sepia-chamois.sh
+        container: qc.sty_nippy-copper-affenpinscher
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-smalt-monkey.sh
-        container: qc.ver_skinny-brown-reindeer
+        - /usr/bin/env sh .sqa/script.lanky-lime-balinese.sh
+        container: qc.ver_homey-saffron-loon
 timeout: 5400
