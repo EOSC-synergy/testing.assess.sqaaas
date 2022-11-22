@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-dandelion-discus.sh
-        container: qc.acc_queasy-cerulean-capybara
+        - /usr/bin/env sh .sqa/script.woozy-lime-goose.sh
+        container: qc.acc_wimpy-periwinkle-lizard
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-red-meerkat.sh
-        container: qc.doc_bumpy-magnolia-sparrow
+        - /usr/bin/env sh .sqa/script.crabby-mauve-dingo.sh
+        container: qc.doc_flimsy-thistle-kangaroo
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-tan-cassowary.sh
-        container: qc.doc_randy-black-mau
+        - /usr/bin/env sh .sqa/script.craggy-razzmatazz-dalmatian.sh
+        container: qc.doc_crappy-heliotrope-loon
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-sapphire-dolphin.sh
-        container: qc.doc_nippy-champagne-zorse
+        - /usr/bin/env sh .sqa/script.flimsy-apricot-capybara.sh
+        container: qc.doc_hazy-lilac-otter
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-carmine-wolverine.sh
-        container: qc.lic_craggy-bronze-hummingbird
+        - /usr/bin/env sh .sqa/script.clammy-chestnut-javanese.sh
+        container: qc.lic_cheeky-persimmon-dog
   QC.Sty:
     repos:
       github.com/darce-i3m/testing stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-wheat-ferret.sh
-        container: qc.sty_skimpy-champagne-russel
+        - /usr/bin/env sh .sqa/script.stealthy-black-insect.sh
+        container: qc.sty_skanky-red-fossa
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-cinnamon-molly.sh
-        container: qc.ver_skinny-teal-numbat
+        - /usr/bin/env sh .sqa/script.scummy-khaki-llama.sh
+        container: qc.ver_slimy-turquoise-wombat
 timeout: 5400
