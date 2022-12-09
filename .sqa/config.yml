@@ -4,43 +4,43 @@ config:
     github.com/EOSC-synergy/sqaaas-tooling:
       branch: release/1.7.7
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
-    github.com/darce-i3m/testing:
+    gitlab.a.incd.pt/darce/testing:
       branch: main
-      repo: https://github.com/darce-i3m/testing
+      repo: https://gitlab.a.incd.pt/darce/testing
 environment:
   JPL_DOCKERFORCEBUILD: enabled
   JPL_KEEPGOING: enabled
 sqa_criteria:
   QC.Acc:
     repos:
-      github.com/darce-i3m/testing git:
+      gitlab.a.incd.pt/darce/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-copper-dachsbracke.sh
-        container: qc.acc_slaphappy-thistle-armadillo
+        - /usr/bin/env sh .sqa/script.leaky-firebrick-boar.sh
+        container: qc.acc_scanty-mauve-gharial
   QC.Doc:
     repos:
-      github.com/darce-i3m/testing find_doc_files.py:
+      gitlab.a.incd.pt/darce/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-brown-albatross.sh
-        container: qc.doc_snippy-tomato-cat
-      github.com/darce-i3m/testing git:
+        - /usr/bin/env sh .sqa/script.lousy-smalt-moose.sh
+        container: qc.doc_hasty-white-yak
+      gitlab.a.incd.pt/darce/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.stinky-sepia-cuttlefish.sh
-        container: qc.doc_lumpy-tan-walrus
-      github.com/darce-i3m/testing markdownlint:
+        - /usr/bin/env sh .sqa/script.snazzy-brown-tamarin.sh
+        container: qc.doc_gamy-turquoise-mongoose
+      gitlab.a.incd.pt/darce/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-silver-bee.sh
-        container: qc.doc_chewy-tomato-barracuda
+        - /usr/bin/env sh .sqa/script.flimsy-maroon-crab.sh
+        container: qc.doc_cheeky-aquamarine-javanese
   QC.Lic:
     repos:
-      github.com/darce-i3m/testing licensee:
+      gitlab.a.incd.pt/darce/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.crappy-olivine-angelfish.sh
-        container: qc.lic_frumpy-smalt-budgerigar
+        - /usr/bin/env sh .sqa/script.gamy-razzmatazz-dingo.sh
+        container: qc.lic_blurry-razzmatazz-burmese
   QC.Ver:
     repos:
-      github.com/darce-i3m/testing get_git_tags.py:
+      gitlab.a.incd.pt/darce/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.muzzy-pumpkin-grouse.sh
-        container: qc.ver_shabby-azure-gerbil
+        - /usr/bin/env sh .sqa/script.dorky-sepia-fossa.sh
+        container: qc.ver_nippy-tangerine-greyhound
 timeout: 5400

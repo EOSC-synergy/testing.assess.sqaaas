@@ -1,4 +1,4 @@
 (
-cd github.com/darce-i3m/testing &&
+cd gitlab.a.incd.pt/darce/testing &&
     git rev-parse --is-inside-work-tree
 )
