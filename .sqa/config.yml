@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/1.7.6
+      branch: release/1.7.7
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/darce-i3m/testing:
       branch: main
@@ -15,38 +15,32 @@ sqa_criteria:
     repos:
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-champagne-schnauzer.sh
-        container: qc.acc_skinny-jade-sheepdog
+        - /usr/bin/env sh .sqa/script.gimpy-green-catfish.sh
+        container: qc.acc_gummy-burgundy-uguisu
   QC.Doc:
     repos:
       github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.blurry-sepia-dugong.sh
-        container: qc.doc_beady-flax-insect
+        - /usr/bin/env sh .sqa/script.wiggy-bronze-cuscus.sh
+        container: qc.doc_fuzzy-brass-frog
       github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.bluesy-crimson-dormouse.sh
-        container: qc.doc_goopy-ivory-discus
+        - /usr/bin/env sh .sqa/script.blurry-orchid-beetle.sh
+        container: qc.doc_dorky-ecru-walrus
       github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.greasy-silver-guppy.sh
-        container: qc.doc_snippy-teal-zebra
+        - /usr/bin/env sh .sqa/script.hasty-khaki-lynx.sh
+        container: qc.doc_cheeky-salmon-moorhen
   QC.Lic:
     repos:
       github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-tan-chow.sh
-        container: qc.lic_skinny-peach-camel
-  QC.Sty:
-    repos:
-      github.com/darce-i3m/testing stylelint:
-        commands:
-        - /usr/bin/env sh .sqa/script.skanky-gamboge-tamarin.sh
-        container: qc.sty_sleazy-denim-bee
+        - /usr/bin/env sh .sqa/script.stealthy-cinnamon-newt.sh
+        container: qc.lic_tasty-amaranth-cockroach
   QC.Ver:
     repos:
       github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-chocolate-eleuth.sh
-        container: qc.ver_tacky-brown-corgi
+        - /usr/bin/env sh .sqa/script.shaky-platinum-tortoise.sh
+        container: qc.ver_bumpy-rust-saola
 timeout: 5400
