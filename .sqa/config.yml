@@ -4,43 +4,43 @@ config:
     github.com/EOSC-synergy/sqaaas-tooling:
       branch: release/1.7.7
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
-    github.com/darce-i3m/testing:
+    gitlab.a.incd.pt/darce/testing:
       branch: main
-      repo: https://github.com/darce-i3m/testing
+      repo: https://gitlab.a.incd.pt/darce/testing
 environment:
   JPL_DOCKERFORCEBUILD: enabled
   JPL_KEEPGOING: enabled
 sqa_criteria:
   QC.Acc:
     repos:
-      github.com/darce-i3m/testing git:
+      gitlab.a.incd.pt/darce/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-apricot-markhor.sh
-        container: qc.acc_homely-zucchini-frise
+        - /usr/bin/env sh .sqa/script.flimsy-bistre-squirrel.sh
+        container: qc.acc_lanky-charcoal-coati
   QC.Doc:
     repos:
-      github.com/darce-i3m/testing find_doc_files.py:
+      gitlab.a.incd.pt/darce/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-olivine-lizard.sh
-        container: qc.doc_gloppy-thistle-bison
-      github.com/darce-i3m/testing git:
+        - /usr/bin/env sh .sqa/script.squirrely-apricot-seahorse.sh
+        container: qc.doc_lousy-brass-crab
+      gitlab.a.incd.pt/darce/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-sapphire-harrier.sh
-        container: qc.doc_foggy-seashell-gecko
-      github.com/darce-i3m/testing markdownlint:
+        - /usr/bin/env sh .sqa/script.frumpy-amaranth-dragonfly.sh
+        container: qc.doc_sickly-chocolate-sloth
+      gitlab.a.incd.pt/darce/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.bluesy-mustard-mole.sh
-        container: qc.doc_snippy-magenta-wildebeest
+        - /usr/bin/env sh .sqa/script.paltry-aquamarine-bloodhound.sh
+        container: qc.doc_snoopy-amber-kangaroo
   QC.Lic:
     repos:
-      github.com/darce-i3m/testing licensee:
+      gitlab.a.incd.pt/darce/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-grey-wrasse.sh
-        container: qc.lic_cloudy-carmine-ray
+        - /usr/bin/env sh .sqa/script.geeky-cream-anteater.sh
+        container: qc.lic_pretty-smalt-dunker
   QC.Ver:
     repos:
-      github.com/darce-i3m/testing get_git_tags.py:
+      gitlab.a.incd.pt/darce/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-firebrick-weasel.sh
-        container: qc.ver_skimpy-orchid-frise
+        - /usr/bin/env sh .sqa/script.baggy-auburn-macaque.sh
+        container: qc.ver_paltry-apricot-cockroach
 timeout: 5400
