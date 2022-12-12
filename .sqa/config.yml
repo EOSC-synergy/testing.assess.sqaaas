@@ -4,43 +4,43 @@ config:
     github.com/EOSC-synergy/sqaaas-tooling:
       branch: release/1.7.7
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
-    gitlab.a.incd.pt/darce/testing:
+    github.com/darce-i3m/testing:
       branch: main
-      repo: https://gitlab.a.incd.pt/darce/testing
+      repo: https://github.com/darce-i3m/testing
 environment:
   JPL_DOCKERFORCEBUILD: enabled
   JPL_KEEPGOING: enabled
 sqa_criteria:
   QC.Acc:
     repos:
-      gitlab.a.incd.pt/darce/testing git:
+      github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-violet-rhinoceros.sh
-        container: qc.acc_cozy-tangerine-fowl
+        - /usr/bin/env sh .sqa/script.cozy-burgundy-frigatebird.sh
+        container: qc.acc_randy-pumpkin-tang
   QC.Doc:
     repos:
-      gitlab.a.incd.pt/darce/testing find_doc_files.py:
+      github.com/darce-i3m/testing find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-platinum-toucan.sh
-        container: qc.doc_sloppy-turquoise-peccary
-      gitlab.a.incd.pt/darce/testing git:
+        - /usr/bin/env sh .sqa/script.wimpy-emerald-anteater.sh
+        container: qc.doc_muzzy-mustard-bongo
+      github.com/darce-i3m/testing git:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-thistle-goose.sh
-        container: qc.doc_silly-pink-grasshopper
-      gitlab.a.incd.pt/darce/testing markdownlint:
+        - /usr/bin/env sh .sqa/script.jumpy-cinnamon-bordeaux.sh
+        container: qc.doc_queasy-denim-tapir
+      github.com/darce-i3m/testing markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-carmine-spaniel.sh
-        container: qc.doc_hilly-orange-yak
+        - /usr/bin/env sh .sqa/script.flaky-thistle-cichlid.sh
+        container: qc.doc_scaly-cardinal-tortoise
   QC.Lic:
     repos:
-      gitlab.a.incd.pt/darce/testing licensee:
+      github.com/darce-i3m/testing licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-brass-dolphin.sh
-        container: qc.lic_squeaky-olive-millipede
+        - /usr/bin/env sh .sqa/script.baggy-crimson-sparrow.sh
+        container: qc.lic_cozy-chartreuse-sponge
   QC.Ver:
     repos:
-      gitlab.a.incd.pt/darce/testing get_git_tags.py:
+      github.com/darce-i3m/testing get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-flax-hummingbird.sh
-        container: qc.ver_snippy-cerulean-stingray
+        - /usr/bin/env sh .sqa/script.thirsty-amethyst-bird.sh
+        container: qc.ver_gloppy-gold-cichlid
 timeout: 5400
